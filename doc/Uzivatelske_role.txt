@@ -1,0 +1,14 @@
+Uživatelské role
+
+R1. Uživatel
+	- registrovaný uživatel
+	= předek: R2
+R2. Neregistrovaný uživatel
+	- uživatel u kterého zatím neproběhla registrace
+	= předek: Není	
+R3. Správce aplikace
+	- uživatel s přístupem ke všem akcím
+	= předek: R1, R2
+R4. Správce hospody
+	- uživatel s možností vytváření a editace hospod
+	= předek: R1, R2
