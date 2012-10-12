@@ -24,11 +24,11 @@ Požadovaná role: R1
 		F2.2.3 Změna emailu
 		F2.2.4 Změna domácí lokality
 		F2.2.5 Změna/nastavení bia
-		F2.3.6 Nastavení zobrazení/nezobrazení emailu
-		F2.3.7 Nastavení nové lokality
-		F2.3.8 Nastavení oblíbených hospod (našeptávat z Foursquare)
-		F2.3.9 Dodatečné provázání s Facebookem
-		F2.3.10 Přepínání zdroje avatara (pouze pro provázené s Facebookem)
+		F2.2.6 Nastavení zobrazení/nezobrazení emailu
+		F2.2.7 Nastavení nové lokality
+		F2.2.8 Nastavení oblíbených hospod (našeptávat z Foursquare)
+		F2.2.9 Dodatečné provázání s Facebookem
+		F2.2.10 Přepínání zdroje avatara (pouze pro provázené s Facebookem)
 		
 F3. Zadání žízně
 Požadovaná role: R1
