@@ -1,0 +1,6 @@
+Nefunkèní poadavky
+
+- aplikace by mìla bıt funkèní na serveru ...
+- pouití PHP 5.3
+- Framework Symfony 2.0
+- Javascript - validace formuláøù na stranì klienta
