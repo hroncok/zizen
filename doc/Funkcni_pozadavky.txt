@@ -67,14 +67,14 @@ Požadovaná role: R1
 			F5.6.2.1 Přijmout žádost
 			F5.6.2.2 Odmítnout žádost
 
-/*F5. Zadání hospody
+/*F6. Zadání hospody
 Požadovaná role: R4
 	F5.1 Nastavení názvu hospody
 	F5.2 Nastavení lokality
 	F5.3 Nastavení profilového obrázku hospody
 	F5.4 Zadání otevírací doby
 	
-F6. Úprava profilu hospody
+F7. Úprava profilu hospody
 Požadovaná role: R4
 	F6.1 Změna názvu hospody
 	F6.2 Změna lokality
@@ -82,7 +82,7 @@ Požadovaná role: R4
 	F6.4 Změna otevírací doby
 	F6.5 Ostranění hospody
 
-F7. Procházení hospod
+F8. Procházení hospod
 Požadovaná role: R1
 	F7.1 Zobrazení seznamu hospod
 		F7.1.1 Hledání hospody podle názvu či jiných parametrů
