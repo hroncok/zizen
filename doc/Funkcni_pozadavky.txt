@@ -5,7 +5,9 @@ Požadovaná role: R2
 	F1.1 Registrace uživatele
 		F1.1.1 Nastavení registračních údajů
 			- přihlašovací jméno, jméno, příjmení, email, domácí lokalita, pohlaví, věk, profilový obrázek
+			- volitelně Log in with Facebook
 	F1.2 Authentizace uživatele
+			- volitelně Log in with Facebook
 	F1.3 Authorizace uživatele
 Požadovaná role: R1
 	F1.4 Odhlášení uživatele
@@ -13,17 +15,19 @@ Požadovaná role: R1
 F2. Úprava profilu uživatele
 Požadovaná role: R1
 	F2.1 Zobrazení profilu uživatele
-		- přihlašovací jméno, jméno, příjmení, email, domácí lokalita, pohlaví, věk 
+		- přihlašovací jméno, jméno, příjmení, email, domácí lokalita, pohlaví, věk, bio
+		- avatar z Gravatar / Facebook
 	F2.2 Úprava profilu
 		F2.2.1 Změna jména
 		F2.2.2 Změna příjmení
 		F2.2.3 Změna emailu
 		F2.2.4 Změna domácí lokality
-		F2.2.5 Změna/nastavení profilového obrázku
+		F2.2.5 Změna/nastavení bia
 		F2.3.6 Nastavení zobrazení/nezobrazení emailu
 		F2.3.7 Nastavení nové lokality
-		F2.3.8 Nastavení oblíbených hospod
-			F2.3.8.1 Ze seznamu zadaných
+		F2.3.8 Nastavení oblíbených hospod (našeptávat z Foursquare)
+		F2.3.9 Dodatečné provázání s Facebookem
+		F2.3.10 Přepínání zdroje avatara (pouze pro provázené s Facebookem)
 		
 F3. Zadání žízně
 Požadovaná role: R1
@@ -34,6 +38,7 @@ Požadovaná role: R1
 			F3.1.3.2 Nastavení nové lokality
 		F3.1.4 Doba trvání žízne
 		F3.1.5 Nastavení hospody
+			F3.1.5.1 Ze seznamu oblíbených
 			
 			
 F4. Procházení zadaných žízní
@@ -41,12 +46,27 @@ Požadovaná role: R1
 	F4.1 Zobrazení zadaných žiznivníků
 	F4.2 Nastavení filtrů
 		F4.2.1 Dle lokality
-		F4.2.2 Dle věku(od do)
+		F4.2.2 Dle věku (od do)
 		F4.2.3 Dle pohlaví
 		F4.2.4 Dle hospody
 	F4.3 Výběr a zobrazení konkrétního pijáka
 		
-F5. Zadání hospody
+F5. Procházení uživatelů
+Požadovaná role: R1
+	F5.1 Hledání uživatele podle jména či jiných parametrů
+	F5.2 Zobrazení uživatelova profilu
+	F5.3 Poslání žádosti o přidání do přátel
+	F5.4 Nabídnout přátele z Facebooku
+	F5.5 Zobrazení přátel
+		F5.5.1 Odebrat přátele
+	F5.6 Zobrazení žádostí o přátelství
+		F5.6.1 Ode mě
+			F5.6.1.1 Zrušit žádost
+		F5.6.2 Od ostatních
+			F5.6.2.1 Přijmout žádost
+			F5.6.2.2 Odmítnout žádost
+
+/*F5. Zadání hospody
 Požadovaná role: R4
 	F5.1 Nastavení názvu hospody
 	F5.2 Nastavení lokality
@@ -68,7 +88,7 @@ Požadovaná role: R1
 	F6.2 Nastavení filtrů
 		F6.2.1 Dle lokality
 		F6.2.2 Dle počtu náštěvníků
-
+*/
 		
 	
 
