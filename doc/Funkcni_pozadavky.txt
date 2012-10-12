@@ -72,19 +72,21 @@ Požadovaná role: R4
 	F5.2 Nastavení lokality
 	F5.3 Nastavení profilového obrázku hospody
 	F5.4 Zadání otevírací doby
-		
-F6. Procházení hospod
+	
+F6. Úprava profilu hospody
+Požadovaná role: R4
+	F6.1 Změna názvu hospody
+	F6.2 Změna lokality
+	F6.3 Změna profilového obrázku hospody
+	F6.4 Změna otevírací doby
+	F6.5 Ostranění hospody
+
+F7. Procházení hospod
 Požadovaná role: R1
-	F6.1 Zobrazení seznamu hospod
-		F6.1.1 Výběr a zobrazení konkrétní hospody
+	F7.1 Zobrazení seznamu hospod
+		F7.1.1 Hledání hospody podle názvu či jiných parametrů
+		F7.1.2 Výběr a zobrazení konkrétní hospody
 			F6.1.1.1 Zobrazení aktuálních pijáků
-			Požadovaná role: R4
-			F6.1.1.2 Změna konkrétní hospody
-				F6.1.1.2.1 Změna názvu hospody
-				F6.1.1.2.2 Změna lokality
-				F6.1.1.2.3 Změna profilového obrázku hospody
-				F6.1.1.2.4 Změna otevírací doby
-				F6.1.1.2.5 Odstranění hospody
 	F6.2 Nastavení filtrů
 		F6.2.1 Dle lokality
 		F6.2.2 Dle počtu náštěvníků
