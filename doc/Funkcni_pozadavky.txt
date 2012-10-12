@@ -4,7 +4,8 @@ F1. Identifikace uživatele
 Požadovaná role: R2
 	F1.1 Registrace uživatele
 		F1.1.1 Nastavení registračních údajů
-			- přihlašovací jméno, příjmení, username, heslo, email, domácí lokalita, pohlaví, věk, profilový obrázek
+			- přihlašovací jméno, příjmení, username, heslo, email, domácí lokalita, pohlaví, věk, 
+			  profilový obrázek
 			- volitelně Log in with Facebook
 	F1.2 Authentizace uživatele
 			- volitelně Log in with Facebook
