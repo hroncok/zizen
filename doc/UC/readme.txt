@@ -1,1 +1,1 @@
-This dir was made to preserve all documentation about functionality and its user cases!
+This dir was made to preserve all documentation about functionality and its use cases!
