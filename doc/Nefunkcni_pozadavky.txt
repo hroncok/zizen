@@ -1,6 +1,10 @@
-Nefunkèní poadavky
+NefunkÄnÃ­ poÅ¾adavky
 
-- aplikace by mìla bıt funkèní na serveru ...
-- pouití PHP 5.3
+- aplikace by mÄ›la bÃ½t funkÄnÃ­ na serveru webdev.fit.cvut.cz
+- aplikace vyuÅ¾Ã­vÃ¡ databÃ¡ze Oracle
+- pouÅ¾itÃ­ dotazovacÃ­ho jazyka MySQL
+- pouÅ¾itÃ­ PHP 5.3
 - Framework Symfony 2.0
-- Javascript - validace formuláøù na stranì klienta
+- Framework pro komunikaci s databÃ¡zÃ¡ Doctrine 2.0
+- Javascript - validace formulÃ¡Å™Å¯ na stranÄ› klienta
+- aplikace nebude implementovÃ¡na pro mobilnÃ­ telefony
