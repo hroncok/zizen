@@ -28,7 +28,10 @@ Požadovaná role: R1
 			F2.2.4.3 Smazání lokality
 			F2.2.4.4 Nastavení výchozí lokality
 		F2.2.5 Změna/nastavení bia
-		F2.2.6 Nastavení zobrazení/nezobrazení emailu
+		F2.2.6 Nastavení zobrazení/nezobrazení položek
+			F2.2.6.1 Pro všechny
+			F2.2.6.2 Pro přátele
+			F2.2.6.3 Pro nikoho
 		F2.2.7 Nastavení oblíbených hospod (našeptávat z Foursquare)
 		F2.2.8 Dodatečné provázání s Facebookem
 		F2.2.9 Přepínání zdroje avatara (pouze pro provázené s Facebookem)
@@ -55,17 +58,17 @@ Požadovaná role: R1
 				F3.1.3.2.2 Věk
 				F3.1.3.2.3 Pohlaví
 			F3.1.3.3 Přepsání výchozích filtrů?
+		F3.1.2 Odeslání požadavku
 			
-			
-F4. Procházení zadaných žízní
+F4. Procházení nabídek
 Požadovaná role: R1
-	F4.1 Zobrazení zadaných žiznivníků
-	F4.2 Nastavení filtrů
-		F4.2.1 Dle lokality
-		F4.2.2 Dle věku (od do)
-		F4.2.3 Dle pohlaví
-		F4.2.4 Dle hospody
-	F4.3 Výběr a zobrazení konkrétního pijáka
+	F4.1 Zobrazení seznamu lidí (jména a stavy) odpovídajících filtrům
+		F4.1.2 Zobrazení podrobností
+			F4.1.2.1 Profil uživatele
+			F4.1.2.2 Konverzace
+			F4.1.2.3 Potvrzení návštěvy podniku
+				F4.1.2.3.1 Výběr podniku
+				F4.1.2.3.2 Potvrzení protistranou
 		
 F5. Procházení uživatelů
 Požadovaná role: R1
@@ -81,39 +84,5 @@ Požadovaná role: R1
 		F5.6.2 Od ostatních
 			F5.6.2.1 Přijmout žádost
 			F5.6.2.2 Odmítnout žádost
-
-/*F6. Zadání hospody
-Požadovaná role: R4
-	F5.1 Nastavení názvu hospody
-	F5.2 Nastavení lokality
-	F5.3 Nastavení profilového obrázku hospody
-	F5.4 Zadání otevírací doby
-	
-F7. Úprava profilu hospody
-Požadovaná role: R4
-	F6.1 Změna názvu hospody
-	F6.2 Změna lokality
-	F6.3 Změna profilového obrázku hospody
-	F6.4 Změna otevírací doby
-	F6.5 Ostranění hospody
-
-F8. Procházení hospod
-Požadovaná role: R1
-	F7.1 Zobrazení seznamu hospod
-		F7.1.1 Hledání hospody podle názvu či jiných parametrů
-		F7.1.2 Výběr a zobrazení konkrétní hospody
-			F6.1.1.1 Zobrazení aktuálních pijáků
-	F6.2 Nastavení filtrů
-		F6.2.1 Dle lokality
-		F6.2.2 Dle počtu náštěvníků
-*/
-		
-	
-
-
-
-
-
-
 		
 	
