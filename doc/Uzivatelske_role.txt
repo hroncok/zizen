@@ -9,7 +9,4 @@ R2. Neregistrovaný uživatel
 R3. Správce aplikace
 	- uživatel s přístupem ke všem akcím
 	= předek: R1, R2
-// K diskuzi: Na R4 se vykašlat, neobjevovat kolo a našeptávat hospody z Foursquare
-R4. Správce hospody
-	- uživatel s možností vytváření a editace hospod
-	= předek: R1, R2
+
