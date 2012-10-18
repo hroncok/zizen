@@ -29,13 +29,13 @@ Požadovaná role: R1
 			F2.2.6.1 Pro všechny
 			F2.2.6.2 Pro přátele
 			F2.2.6.3 Pro nikoho
-		F2.2.10 Nastavení výchozích filtrů
-			F2.2.10.1 Přátelé ano/ne
-				F2.2.10.1.1 Radius
-			F2.2.10.2 Ostatní (nepřátelé) ano/ne
-				F2.2.10.2.1 Radius
-				F2.2.10.2.2 Věk
-				F2.2.10.2.3 Pohlaví
+		F2.2.7 Nastavení výchozích filtrů
+			F2.2.7.1 Přátelé ano/ne
+				F2.2.7.1.1 Radius
+			F2.2.7.2 Ostatní (nepřátelé) ano/ne
+				F2.2.7.2.1 Radius
+				F2.2.7.2.2 Věk
+				F2.2.7.2.3 Pohlaví
 		
 F3. Zadání žízně
 Požadovaná role: R1
@@ -52,7 +52,7 @@ Požadovaná role: R1
 				F3.1.3.2.2 Věk
 				F3.1.3.2.3 Pohlaví
 			F3.1.3.3 Přepsání výchozích filtrů?
-		F3.1.2 Odeslání požadavku
+		F3.1.4 Odeslání požadavku
 			
 F4. Procházení nabídek
 Požadovaná role: R1
@@ -69,12 +69,12 @@ Požadovaná role: R1
 	F5.1 Hledání uživatele podle jména či jiných parametrů
 	F5.2 Zobrazení uživatelova profilu
 	F5.3 Poslání žádosti o přidání do přátel
-	F5.5 Zobrazení přátel
-		F5.5.1 Odebrat přátele
-	F5.6 Zobrazení žádostí o přátelství
-		F5.6.1 Ode mě
+	F5.4 Zobrazení přátel
+		F5.4.1 Odebrat přátele
+	F5.5 Zobrazení žádostí o přátelství
+		F5.5.1 Ode mě
 			F5.6.1.1 Zrušit žádost
-		F5.6.2 Od ostatních
+		F5.5.2 Od ostatních
 			F5.6.2.1 Přijmout žádost
 			F5.6.2.2 Odmítnout žádost
 		
