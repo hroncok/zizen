@@ -6,9 +6,7 @@ Požadovaná role: R2
 		F1.1.1 Nastavení registračních údajů
 			- přihlašovací jméno, příjmení, username, heslo, email, domácí lokalita, pohlaví, věk, 
 			  profilový obrázek
-			- volitelně Log in with Facebook //SMAZAT
 	F1.2 Authentizace uživatele
-			- volitelně Log in with Facebook //SMAZAT
 	F1.3 Authorizace uživatele
 Požadovaná role: R1
 	F1.4 Odhlášení uživatele
@@ -17,7 +15,6 @@ F2. Úprava profilu uživatele
 Požadovaná role: R1
 	F2.1 Zobrazení profilu uživatele
 		- přihlašovací jméno, jméno, příjmení, email, domácí lokalita, pohlaví, věk, bio
-		- avatar z Gravatar / Facebook //SMAZAT
 	F2.2 Úprava profilu
 		F2.2.1 Změna jména
 		F2.2.2 Změna příjmení
@@ -32,9 +29,6 @@ Požadovaná role: R1
 			F2.2.6.1 Pro všechny
 			F2.2.6.2 Pro přátele
 			F2.2.6.3 Pro nikoho
-		F2.2.7 Nastavení oblíbených hospod (našeptávat z Foursquare)
-		F2.2.8 Dodatečné provázání s Facebookem //SMAZAT
-		F2.2.9 Přepínání zdroje avatara (pouze pro provázené s Facebookem) //SMAZAT
 		F2.2.10 Nastavení výchozích filtrů
 			F2.2.10.1 Přátelé ano/ne
 				F2.2.10.1.1 Radius
@@ -75,7 +69,6 @@ Požadovaná role: R1
 	F5.1 Hledání uživatele podle jména či jiných parametrů
 	F5.2 Zobrazení uživatelova profilu
 	F5.3 Poslání žádosti o přidání do přátel
-	F5.4 Nabídnout přátele z Facebooku
 	F5.5 Zobrazení přátel
 		F5.5.1 Odebrat přátele
 	F5.6 Zobrazení žádostí o přátelství
