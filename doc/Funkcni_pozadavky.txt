@@ -67,7 +67,7 @@ Požadovaná role: R1
 F5. Procházení uživatelů
 Požadovaná role: R1
 	F5.1 Hledání uživatele podle jména či jiných parametrů
-	F5.2 Zobrazení uživatelova profilu
+	F5.2 Zobrazení profilu uživatele
 	F5.3 Poslání žádosti o přidání do přátel
 	F5.4 Zobrazení přátel
 		F5.4.1 Odebrat přátele
