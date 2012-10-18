@@ -1,0 +1,84 @@
+Funkční požadavky
+
+F1. Identifikace uživatele
+Požadovaná role: R2
+	F1.1 Registrace uživatele (P1)
+		F1.1.1 Nastavení registračních údajů
+			- přihlašovací jméno, příjmení, username, heslo, email, domácí lokalita, pohlaví, věk, 
+			  profilový obrázek
+		(omezení: 	1) profilový obrázek - jediná možnost jak ho nahrát je z lokálního disku
+			 	2) domácí lokalita - jediný způsob jak ji vyplnit je kliknutím na určitý bod v mapě
+		)
+	F1.2 Authentizace uživatele (P1)
+	F1.3 Authorizace uživatele (P1)
+Požadovaná role: R1
+	F1.4 Odhlášení uživatele (P1)
+	
+F2. Úprava profilu uživatele
+Požadovaná role: R1
+	F2.1 Zobrazení profilu uživatele (P1)
+		- přihlašovací jméno, jméno, příjmení, email, domácí lokalita, pohlaví, věk, bio
+	F2.2 Úprava profilu 
+		F2.2.1 Změna jména (P1)
+		F2.2.2 Změna příjmení (P1)
+		F2.2.3 Změna emailu (P1)
+		F2.2.4 Správa lokalit (P2)
+			F2.2.4.1 Přidání lokality
+			F2.2.4.2 Úprava lokality
+			F2.2.4.3 Smazání lokality
+			F2.2.4.4 Nastavení výchozí lokality
+		F2.2.5 Změna/nastavení bia (P2)
+		F2.2.6 Nastavení zobrazení/nezobrazení položek (P3)
+			F2.2.6.1 Pro všechny
+			F2.2.6.2 Pro přátele
+			F2.2.6.3 Pro nikoho
+		F2.2.7 Nastavení výchozích filtrů (P1)
+			F2.2.7.1 Přátelé ano/ne
+				F2.2.7.1.1 Radius
+			F2.2.7.2 Ostatní (nepřátelé) ano/ne
+				F2.2.7.2.1 Radius
+				F2.2.7.2.2 Věk
+				F2.2.7.2.3 Pohlaví
+		
+F3. Zadání žízně
+Požadovaná role: R1
+	F3.1 Zadání požadavku žízně 
+		F3.1.1 Doba trvání žízně (P1)
+		F3.1.2 Zadání lokality žízně (P1)
+			F3.1.2.1 Výběr domácí/uložené lokality
+			F3.1.2.2 Nastavení nové lokality
+		F3.1.3 Změna výchozích filtrů (P2)
+			F3.1.3.1 Přátelé ano/ne
+				F3.1.3.1.1 Radius
+			F3.1.3.2 Ostatní (nepřátelé) ano/ne
+				F3.1.3.2.1 Radius
+				F3.1.3.2.2 Věk
+				F3.1.3.2.3 Pohlaví
+			F3.1.3.3 Přepsání výchozích filtrů?
+		F3.1.4 Odeslání požadavku (P1)
+			
+F4. Procházení nabídek
+Požadovaná role: R1
+	F4.1 Zobrazení seznamu lidí (jména a stavy) odpovídajících filtrům (P1)
+		F4.1.2 Zobrazení podrobností 
+			F4.1.2.1 Profil uživatele (P2)
+			F4.1.2.2 Konverzace (P3)
+			F4.1.2.3 Potvrzení návštěvy podniku (P3)
+				F4.1.2.3.1 Výběr podniku
+				F4.1.2.3.2 Potvrzení protistranou
+		
+F5. Procházení uživatelů
+Požadovaná role: R1
+	F5.1 Hledání uživatele podle jména či jiných parametrů (P2)
+	F5.2 Zobrazení profilu uživatele (P2)
+	F5.3 Poslání žádosti o přidání do přátel (P3)
+	F5.4 Zobrazení přátel (P3)
+		F5.4.1 Odebrat přátele
+	F5.5 Zobrazení žádostí o přátelství (P3)
+ 		F5.5.1 Ode mě
+			F5.6.1.1 Zrušit žádost
+		F5.5.2 Od ostatních
+			F5.6.2.1 Přijmout žádost
+			F5.6.2.2 Odmítnout žádost
+		
+	
