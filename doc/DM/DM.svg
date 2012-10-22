@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   inkscape:label="Pozadí"
+   version="1.1"
+   inkscape:version="0.48.2 r9819"
+   sodipodi:docname="DM.svg">
+  <defs
+     id="defs3">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10931" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="265.87366"
+     inkscape:cy="529.30331"
+     inkscape:document-units="px"
+     inkscape:current-layer="g11518"
+     showgrid="false"
+     inkscape:window-width="1680"
+     inkscape:window-height="1010"
+     inkscape:window-x="0"
+     inkscape:window-y="22"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata6">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Vrstva 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g11518">
+      <g
+         id="g11582">
+        <rect
+           style="opacity:0.8413284;fill:#000000;fill-opacity:0.52434459;fill-rule:nonzero;stroke:none"
+           id="rect10947"
+           width="243.64395"
+           height="433.73978"
+           x="93.175545"
+           y="146.19783" />
+        <text
+           xml:space="preserve"
+           style="font-size:28.27196693px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+           x="100.3153"
+           y="177.43423"
+           id="text10139"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan10141"
+             x="100.3153"
+             y="177.43423"
+             style="font-weight:bold;stroke:none">uživatel</tspan><tspan
+             sodipodi:role="line"
+             x="100.3153"
+             y="212.77417"
+             id="tspan10145">jméno</tspan><tspan
+             sodipodi:role="line"
+             x="100.3153"
+             y="248.11414"
+             id="tspan10147">příjmení</tspan><tspan
+             sodipodi:role="line"
+             x="100.3153"
+             y="283.4541"
+             id="tspan10149">uživatelské jméno</tspan><tspan
+             sodipodi:role="line"
+             x="100.3153"
+             y="318.79407"
+             id="tspan10151">e-mailová adresa</tspan><tspan
+             sodipodi:role="line"
+             x="100.3153"
+             y="354.13403"
+             id="tspan10155">hashované heslo</tspan><tspan
+             sodipodi:role="line"
+             x="100.3153"
+             y="389.47397"
+             id="tspan11107">avatar URL ?</tspan><tspan
+             sodipodi:role="line"
+             x="100.3153"
+             y="424.81393"
+             id="tspan11111">pohlaví</tspan><tspan
+             sodipodi:role="line"
+             x="100.3153"
+             y="460.1539"
+             id="tspan10157">datum narození</tspan><tspan
+             sodipodi:role="line"
+             x="100.3153"
+             y="495.49384"
+             id="tspan10159">oblíbené hospody</tspan><tspan
+             sodipodi:role="line"
+             x="100.3153"
+             y="530.8338"
+             id="tspan10161">výchozí filtr</tspan><tspan
+             sodipodi:role="line"
+             x="100.3153"
+             y="566.17377"
+             id="tspan11163">lokace</tspan><tspan
+             sodipodi:role="line"
+             x="100.3153"
+             y="601.51367"
+             id="tspan10143" /></text>
+        <rect
+           y="142.62794"
+           x="439.4534"
+           height="146.36487"
+           width="230.25693"
+           id="rect11021"
+           style="opacity:0.8413284;fill:#000000;fill-opacity:0.52434459;fill-rule:nonzero;stroke:none" />
+        <text
+           sodipodi:linespacing="125%"
+           id="text10949"
+           y="173.86435"
+           x="455.51785"
+           style="font-size:28.27196693px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+           xml:space="preserve"><tspan
+             style="font-weight:bold;stroke:none"
+             y="173.86435"
+             x="455.51785"
+             id="tspan10951"
+             sodipodi:role="line">kamrádství</tspan><tspan
+             id="tspan10969"
+             y="209.20432"
+             x="455.51785"
+             sodipodi:role="line">iniciátor</tspan><tspan
+             y="244.54428"
+             x="455.51785"
+             sodipodi:role="line"
+             id="tspan11017">ten druhý</tspan><tspan
+             y="279.88422"
+             x="455.51785"
+             sodipodi:role="line"
+             id="tspan11019">zda je schváleno</tspan><tspan
+             id="tspan10971"
+             y="315.22418"
+             x="455.51785"
+             sodipodi:role="line" /></text>
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1.76699793px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 571.53878,200.63842 110.66612,0 0,-106.203775 -492.64273,0 0,57.117995"
+           id="path11027"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1.76699793px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 586.71075,238.1221 115.12847,0 0,-164.214235 -530.12643,0 0,75.859845"
+           id="path11029"
+           inkscape:connector-curvature="0" />
+        <text
+           sodipodi:linespacing="125%"
+           id="text11031"
+           y="363.06772"
+           x="424.28143"
+           style="font-size:28.27196693px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+           xml:space="preserve"><tspan
+             style="font-weight:bold;stroke:none"
+             y="363.06772"
+             x="424.28143"
+             id="tspan11033"
+             sodipodi:role="line">filtr</tspan><tspan
+             id="tspan11051"
+             y="398.40768"
+             x="424.28143"
+             sodipodi:role="line">radius u kamarádů</tspan><tspan
+             y="433.74765"
+             x="424.28143"
+             sodipodi:role="line"
+             id="tspan11099">radius u ostatních</tspan><tspan
+             y="469.08759"
+             x="424.28143"
+             sodipodi:role="line"
+             id="tspan11101">věkový spodní limit</tspan><tspan
+             y="504.42755"
+             x="424.28143"
+             sodipodi:role="line"
+             id="tspan11103">věkový horní limit</tspan><tspan
+             y="539.76752"
+             x="424.28143"
+             sodipodi:role="line"
+             id="tspan11105">pohlaví</tspan><tspan
+             id="tspan11053"
+             y="575.10748"
+             x="424.28143"
+             sodipodi:role="line" /></text>
+        <rect
+           y="332.72379"
+           x="416.24921"
+           height="224.00963"
+           width="268.63309"
+           id="rect11113"
+           style="opacity:0.8413284;fill:#000000;fill-opacity:0.52434459;fill-rule:nonzero;stroke:none" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1.76699793px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 254.71238,525.49703 124.94562,0 0,-213.30003 96.38663,0 0,24.09666"
+           id="path11115"
+           inkscape:connector-curvature="0" />
+        <text
+           sodipodi:linespacing="125%"
+           id="text11031-3"
+           y="732.87646"
+           x="357.68616"
+           style="font-size:28.27196693px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+           xml:space="preserve"><tspan
+             style="font-weight:bold;stroke:none"
+             y="732.87646"
+             x="357.68616"
+             id="tspan11033-6"
+             sodipodi:role="line">žízeň</tspan><tspan
+             id="tspan11051-1"
+             y="768.21643"
+             x="357.68616"
+             sodipodi:role="line">zadavtel</tspan><tspan
+             y="803.5564"
+             x="357.68616"
+             sodipodi:role="line"
+             id="tspan11099-2">filtr</tspan><tspan
+             y="838.89636"
+             x="357.68616"
+             sodipodi:role="line"
+             id="tspan11105-2">pozice</tspan><tspan
+             y="874.23633"
+             x="357.68616"
+             sodipodi:role="line"
+             id="tspan11161">platnost</tspan><tspan
+             id="tspan11053-5"
+             y="909.57623"
+             x="357.68616"
+             sodipodi:role="line" /></text>
+        <rect
+           style="opacity:0.8413284;fill:#000000;fill-opacity:0.52434459;fill-rule:nonzero;stroke:none"
+           id="rect11165"
+           width="140.11758"
+           height="187.4184"
+           x="350.20654"
+           y="701.31335" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1.76699793px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 469.79735,760.2163 35.69875,0 0,-130.30042 -463.19127,0 0,-530.126424 110.66612,0 0,49.085784"
+           id="path11167"
+           inkscape:connector-curvature="0" />
+        <rect
+           y="619.2063"
+           x="536.73248"
+           height="173.1389"
+           width="131.19289"
+           id="rect11359"
+           style="opacity:0.8413284;fill:#000000;fill-opacity:0.52434459;fill-rule:nonzero;stroke:none" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1.76699793px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 413.57181,796.80752 297.19209,0 0,-484.61052 -216.86991,0 0,24.09666"
+           id="path11169"
+           inkscape:connector-curvature="0" />
+        <text
+           sodipodi:linespacing="125%"
+           id="text11190"
+           y="787.8783"
+           x="59.261738"
+           style="font-size:28.27196693px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+           xml:space="preserve"><tspan
+             style="font-weight:bold;stroke:none"
+             y="787.8783"
+             x="59.261738"
+             id="tspan11192"
+             sodipodi:role="line">lokace</tspan><tspan
+             id="tspan11216"
+             y="823.21826"
+             x="59.261738"
+             sodipodi:role="line">název</tspan><tspan
+             y="858.55823"
+             x="59.261738"
+             sodipodi:role="line"
+             id="tspan11295">pozice</tspan><tspan
+             y="893.89819"
+             x="59.261738"
+             sodipodi:role="line"
+             id="tspan11297">zda je výchozí</tspan></text>
+        <rect
+           y="761.10883"
+           x="56.584332"
+           height="150.82718"
+           width="190.9883"
+           id="rect11299"
+           style="opacity:0.8413284;fill:#000000;fill-opacity:0.52434459;fill-rule:nonzero;stroke:none" />
+        <rect
+           style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="rect11303"
+           width="16.9569"
+           height="18.741812"
+           x="332.35718"
+           y="620.09875" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1.76699793px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 186.88477,559.41084 154.39707,0 0,124.05315 -224.00964,0 0,80.32219"
+           id="path11301"
+           inkscape:connector-curvature="0" />
+        <text
+           sodipodi:linespacing="125%"
+           id="text11031-3-0"
+           y="647.34515"
+           x="545.61255"
+           style="font-size:28.27196693px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+           xml:space="preserve"><tspan
+             style="font-weight:bold;stroke:none"
+             y="647.34515"
+             x="545.61255"
+             id="tspan11033-6-3"
+             sodipodi:role="line">schoda</tspan><tspan
+             id="tspan11053-5-3"
+             y="682.68512"
+             x="545.61255"
+             sodipodi:role="line">žízeň 1</tspan><tspan
+             y="718.02509"
+             x="545.61255"
+             sodipodi:role="line"
+             id="tspan11355">žízeň 2</tspan><tspan
+             y="753.36505"
+             x="545.61255"
+             sodipodi:role="line"
+             id="tspan11357">stav</tspan><tspan
+             y="788.70502"
+             x="545.61255"
+             sodipodi:role="line"
+             id="tspan11390">hospoda</tspan></text>
+        <rect
+           style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="rect11303-2"
+           width="32.128868"
+           height="18.741812"
+           x="421.15781"
+           y="620.54492" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1.76699793px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 635.79652,674.53931 36.59122,0 0,-73.18243 -228.472,0 0,101.74143"
+           id="path11361"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1.76699793px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 634.01159,709.34558 50.87072,0 0,-118.69833 -253.46111,0 0,110.66612"
+           id="path11363"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="ccccc" />
+      </g>
+    </g>
+  </g>
+</svg>
