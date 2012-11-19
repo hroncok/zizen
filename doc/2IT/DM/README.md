@@ -1,7 +1,7 @@
 Database model
 ==============
 
-Finální databázový model je v souborech relational.svg a .pdf (obsah je identický).
+Finální databázový model je v souborech relational.svg a .pdf (obsah je identický). V souboru logical.svg je logický model databáze (spíš pro zajímavost, na tom relačním byly prováděny dodatečné úpravy). Soubor dbmodel.dmd a složka dbmodel patří k sobě, jedná se uložený návrh v Oracle Data Modeleru. 
 
 Několik poznámek k modelu:
 --------------------------
