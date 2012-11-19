@@ -1,17 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="has_contact" id="EB2D21BF-5D75-A0BC-C6BE-A6D8432D63A4" directorySegmentName="seg_0">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="has_thirst" id="5FE33F21-3750-D59B-F2AE-A30606569FC5" directorySegmentName="seg_0">
    <createdBy>churchyard</createdBy>
-   <createdTime>2012-11-19 09:48:54 UTC</createdTime>
+   <createdTime>2012-11-19 11:37:46 UTC</createdTime>
    <changedBy>churchyard</changedBy>
-   <changedTime>2012-11-19 11:41:34 UTC</changedTime>
+   <changedTime>2012-11-19 11:38:03 UTC</changedTime>
    <ownerDesignName>dbmodel</ownerDesignName>
-   <shouldEngineer>false</shouldEngineer>
    <identifying>false</identifying>
    <optionalSource>true</optionalSource>
    <optionalTarget>false</optionalTarget>
    <sourceCardinality>1</sourceCardinality>
    <sourceEntity>0E1332C5-F5F2-FA34-8838-3C9DD95D9A34</sourceEntity>
    <targetCardinalityString>*</targetCardinalityString>
-   <targetEntity>A246BB84-477E-4CB6-EF0D-F2088FB635AB</targetEntity>
+   <targetEntity>417EC152-A8E6-20D1-8B39-CC937DD177D3</targetEntity>
    <transferable>true</transferable>
 </Relation>

@@ -3,7 +3,7 @@
    <createdBy>churchyard</createdBy>
    <createdTime>2012-11-19 10:06:27 UTC</createdTime>
    <changedBy>churchyard</changedBy>
-   <changedTime>2012-11-19 10:10:10 UTC</changedTime>
+   <changedTime>2012-11-19 11:40:08 UTC</changedTime>
    <ownerDesignName>dbmodel</ownerDesignName>
    <pkName>thirst PK</pkName>
    <adequatelyNormalized>NO</adequatelyNormalized>
@@ -90,13 +90,24 @@
          <use>1</use>
          <logicalDatatype>LOGDT011</logicalDatatype>
       </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="user_id" id="88CB5593-537A-62AA-A957-A7562B7B89D8">
+         <createdBy>churchyard</createdBy>
+         <createdTime>2012-11-19 11:37:46 UTC</createdTime>
+         <changedBy>churchyard</changedBy>
+         <changedTime>2012-11-19 11:37:46 UTC</changedTime>
+         <generatorID>5FE33F21-3750-D59B-F2AE-A30606569FC5</generatorID>
+         <ownerDesignName>dbmodel</ownerDesignName>
+         <referedAttribute>A1891FA2-12CA-F9D2-993C-C5FDDC1E8BD9</referedAttribute>
+         <use>1</use>
+         <logicalDatatype>LOGDT011</logicalDatatype>
+      </Attribute>
    </attributes>
    <identifiers>
       <identifier class="oracle.dbtools.crest.model.design.logical.CandidateKey" id="3685C3E0-BF74-FECF-8302-EACC55C8EAEC" name="thirst PK">
          <createdBy>churchyard</createdBy>
          <createdTime>2012-11-19 10:07:26 UTC</createdTime>
          <changedBy>churchyard</changedBy>
-         <changedTime>2012-11-19 10:08:40 UTC</changedTime>
+         <changedTime>2012-11-19 11:40:08 UTC</changedTime>
          <ownerDesignName>dbmodel</ownerDesignName>
          <pk>true</pk>
          <usedAttributes>

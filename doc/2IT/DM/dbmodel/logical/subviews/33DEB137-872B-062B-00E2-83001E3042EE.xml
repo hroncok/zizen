@@ -3,7 +3,7 @@
    <createdBy>churchyard</createdBy>
    <createdTime>2012-11-19 09:36:11 UTC</createdTime>
    <changedBy>churchyard</changedBy>
-   <changedTime>2012-11-19 10:10:32 UTC</changedTime>
+   <changedTime>2012-11-19 11:37:46 UTC</changedTime>
    <autoRoute>false</autoRoute>
    <boxInbox>true</boxInbox>
    <showLegend>false</showLegend>
@@ -50,6 +50,13 @@
             <point x="776" y="315"/>
          </points>
       </Connector>
+      <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="5FE33F21-3750-D59B-F2AE-A30606569FC5" otype="Relation" vid_source="D579CC5F-7970-B406-C4C9-4A33986042E2" vid_target="4BCE8BE8-FA61-C4A2-836D-70EFE0A9570A">
+         <lineWidth>1</lineWidth>
+         <points>
+            <point x="645" y="289"/>
+            <point x="645" y="196"/>
+         </points>
+      </Connector>
       <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="679E467B-FC9F-7124-5B65-931539A08C7A" otype="Relation" vid_source="D579CC5F-7970-B406-C4C9-4A33986042E2" vid_target="D579CC5F-7970-B406-C4C9-4A33986042E2">
          <lineWidth>1</lineWidth>
          <points>
@@ -73,7 +80,7 @@
       <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="98D4DFFB-EE47-22D1-FA7E-45B531277EB3" otype="Relation" vid_source="4BCE8BE8-FA61-C4A2-836D-70EFE0A9570A" vid_target="F40CACED-4A29-2388-76A4-5016C27E3D78">
          <lineWidth>1</lineWidth>
          <points>
-            <point x="676" y="196"/>
+            <point x="657" y="196"/>
             <point x="920" y="130"/>
             <point x="924" y="539"/>
          </points>

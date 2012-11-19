@@ -1,9 +1,9 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" id="C100825F-585A-15CB-9180-F517E1E2C642" directorySegmentName="seg_0" name="filters">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="A65ADBC3-EC42-E665-DC0D-1EAE47077AF5" directorySegmentName="seg_0" name="filters">
    <createdBy>churchyard</createdBy>
-   <createdTime>2012-11-19 10:10:42 UTC</createdTime>
+   <createdTime>2012-11-19 11:32:47 UTC</createdTime>
    <changedBy>churchyard</changedBy>
-   <changedTime>2012-11-19 10:10:42 UTC</changedTime>
+   <changedTime>2012-11-19 11:32:47 UTC</changedTime>
    <generatorID>072850E8-D334-6272-0FA6-F6199F445176</generatorID>
    <ownerDesignName>dbmodel</ownerDesignName>
    <pkName>filters PK</pkName>
@@ -43,22 +43,22 @@
       </FontObject>
    </fonts>
    <columns>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="filter_id" id="561CC31D-F67F-BB44-7356-AEE18B8C30AB">
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="filter_id" id="752F209A-3C71-C528-A1CC-3B8062C4EE95">
          <createdBy>churchyard</createdBy>
-         <createdTime>2012-11-19 10:10:42 UTC</createdTime>
+         <createdTime>2012-11-19 11:32:47 UTC</createdTime>
          <changedBy>churchyard</changedBy>
-         <changedTime>2012-11-19 10:10:42 UTC</changedTime>
+         <changedTime>2012-11-19 11:32:47 UTC</changedTime>
          <generatorID>9C1F7806-3D48-BA0D-A81D-16EBFDB6D4EF</generatorID>
          <ownerDesignName>dbmodel</ownerDesignName>
          <use>1</use>
          <logicalDatatype>LOGDT011</logicalDatatype>
          <previousColumn>false</previousColumn>
       </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="friend_radius" id="5066593B-3892-D81C-6169-4E9B16FFA745">
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="friend_radius" id="B3DF8FE5-9C10-D613-8E21-46D362546D89">
          <createdBy>churchyard</createdBy>
-         <createdTime>2012-11-19 10:10:42 UTC</createdTime>
+         <createdTime>2012-11-19 11:32:47 UTC</createdTime>
          <changedBy>churchyard</changedBy>
-         <changedTime>2012-11-19 10:10:42 UTC</changedTime>
+         <changedTime>2012-11-19 11:32:47 UTC</changedTime>
          <generatorID>A9543D36-3AA2-1020-E1B6-3F4BDB0EB450</generatorID>
          <ownerDesignName>dbmodel</ownerDesignName>
          <nullsAllowed>true</nullsAllowed>
@@ -66,11 +66,11 @@
          <logicalDatatype>LOGDT011</logicalDatatype>
          <previousColumn>false</previousColumn>
       </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="other_radius" id="B36CA986-4BE2-0D69-5B2D-95BC8461C3D4">
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="other_radius" id="85E0B564-8DD6-C9F5-E6AA-CFAE35E27A2F">
          <createdBy>churchyard</createdBy>
-         <createdTime>2012-11-19 10:10:42 UTC</createdTime>
+         <createdTime>2012-11-19 11:32:47 UTC</createdTime>
          <changedBy>churchyard</changedBy>
-         <changedTime>2012-11-19 10:10:42 UTC</changedTime>
+         <changedTime>2012-11-19 11:32:47 UTC</changedTime>
          <generatorID>83B7B70E-FBAE-650B-CDAD-D67F8CA7E4D6</generatorID>
          <ownerDesignName>dbmodel</ownerDesignName>
          <nullsAllowed>true</nullsAllowed>
@@ -78,11 +78,11 @@
          <logicalDatatype>LOGDT011</logicalDatatype>
          <previousColumn>false</previousColumn>
       </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="age_min" id="3694602F-81B3-EC89-E2BE-8FCC306CC8A5">
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="age_min" id="6DA85A65-9E60-4D57-D302-EC4642605845">
          <createdBy>churchyard</createdBy>
-         <createdTime>2012-11-19 10:10:42 UTC</createdTime>
+         <createdTime>2012-11-19 11:32:47 UTC</createdTime>
          <changedBy>churchyard</changedBy>
-         <changedTime>2012-11-19 10:10:42 UTC</changedTime>
+         <changedTime>2012-11-19 11:32:47 UTC</changedTime>
          <generatorID>AFD3F12D-9923-8F27-84DE-4DA6DCF22DBD</generatorID>
          <ownerDesignName>dbmodel</ownerDesignName>
          <nullsAllowed>true</nullsAllowed>
@@ -90,11 +90,11 @@
          <logicalDatatype>LOGDT011</logicalDatatype>
          <previousColumn>false</previousColumn>
       </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="age_max" id="0400D531-7207-A98E-C2E5-946416DB7F50">
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="age_max" id="5B10635C-95CA-5057-D340-1337290C18FA">
          <createdBy>churchyard</createdBy>
-         <createdTime>2012-11-19 10:10:42 UTC</createdTime>
+         <createdTime>2012-11-19 11:32:47 UTC</createdTime>
          <changedBy>churchyard</changedBy>
-         <changedTime>2012-11-19 10:10:42 UTC</changedTime>
+         <changedTime>2012-11-19 11:32:47 UTC</changedTime>
          <generatorID>7C9CCA63-D25E-119B-5495-3EC1F39068CA</generatorID>
          <ownerDesignName>dbmodel</ownerDesignName>
          <nullsAllowed>true</nullsAllowed>
@@ -102,11 +102,11 @@
          <logicalDatatype>LOGDT011</logicalDatatype>
          <previousColumn>false</previousColumn>
       </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="filter_sex" id="54C42976-3FC7-6873-AA38-7930B2B1309F">
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="filter_sex" id="377D4204-2E97-69EC-0031-EEF4614CA270">
          <createdBy>churchyard</createdBy>
-         <createdTime>2012-11-19 10:10:42 UTC</createdTime>
+         <createdTime>2012-11-19 11:32:47 UTC</createdTime>
          <changedBy>churchyard</changedBy>
-         <changedTime>2012-11-19 10:10:42 UTC</changedTime>
+         <changedTime>2012-11-19 11:32:47 UTC</changedTime>
          <generatorID>1D2CAEE7-C5FF-3798-FECA-082C0F655243</generatorID>
          <ownerDesignName>dbmodel</ownerDesignName>
          <nullsAllowed>true</nullsAllowed>
@@ -117,17 +117,17 @@
       </Column>
    </columns>
    <indexes>
-      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="38411314-B0DB-2DC0-73B9-62D8E9B01726" name="filters PK">
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="2FF31B6D-1CDA-FE67-ED55-3394B621191E" name="filters PK">
          <createdBy>churchyard</createdBy>
-         <createdTime>2012-11-19 10:10:42 UTC</createdTime>
+         <createdTime>2012-11-19 11:32:47 UTC</createdTime>
          <changedBy>churchyard</changedBy>
-         <changedTime>2012-11-19 10:10:42 UTC</changedTime>
+         <changedTime>2012-11-19 11:32:47 UTC</changedTime>
          <generatorID>F50E2E0E-9FF9-5124-0705-3E76817AB9D6</generatorID>
          <ownerDesignName>dbmodel</ownerDesignName>
          <pk>true</pk>
          <indexState>Primary Constraint</indexState>
          <indexColumnUsage>
-            <colUsage columnID="561CC31D-F67F-BB44-7356-AEE18B8C30AB"/>
+            <colUsage columnID="752F209A-3C71-C528-A1CC-3B8062C4EE95"/>
          </indexColumnUsage>
       </ind_PK_UK>
    </indexes>

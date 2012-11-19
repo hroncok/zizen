@@ -1,9 +1,9 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" id="5DCB0BE0-8385-D7DE-1B86-EB1C4E8C87AE" directorySegmentName="seg_0" name="thirst_match">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="A2CA04E2-6FF9-4B91-905B-63C0B76B36F2" directorySegmentName="seg_0" name="thirst_match">
    <createdBy>churchyard</createdBy>
-   <createdTime>2012-11-19 10:10:42 UTC</createdTime>
+   <createdTime>2012-11-19 11:32:47 UTC</createdTime>
    <changedBy>churchyard</changedBy>
-   <changedTime>2012-11-19 10:10:42 UTC</changedTime>
+   <changedTime>2012-11-19 11:41:08 UTC</changedTime>
    <ownerDesignName>dbmodel</ownerDesignName>
    <pkName>thirst_match__IDX</pkName>
    <fonts>
@@ -42,69 +42,69 @@
       </FontObject>
    </fonts>
    <columns>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="thirst_thirst_id" id="CAA5EC0E-C98C-A633-EDC1-EC1D1EDBC36A">
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="thirst1" id="D10DD328-AD40-2197-7946-E5C4AFB5A3F5">
          <createdBy>churchyard</createdBy>
-         <createdTime>2012-11-19 10:10:42 UTC</createdTime>
+         <createdTime>2012-11-19 11:32:47 UTC</createdTime>
          <changedBy>churchyard</changedBy>
-         <changedTime>2012-11-19 10:10:42 UTC</changedTime>
+         <changedTime>2012-11-19 11:41:07 UTC</changedTime>
          <ownerDesignName>dbmodel</ownerDesignName>
          <use>1</use>
          <logicalDatatype>LOGDT011</logicalDatatype>
-         <delegate>81D5BBE1-97A5-FCD6-B677-ADB50D6DE909</delegate>
+         <delegate>FE72ECE3-018A-8961-01C7-76A08C378FC7</delegate>
          <previousColumn>false</previousColumn>
          <associations>
-            <colAssociation fkAssociation="3086DE3F-B487-DF64-07DC-07A2C9E61783" referredColumn="81D5BBE1-97A5-FCD6-B677-ADB50D6DE909"/>
+            <colAssociation fkAssociation="A1D1481C-6D9A-4EC5-ED01-683ADAF4EC02" referredColumn="FE72ECE3-018A-8961-01C7-76A08C378FC7"/>
          </associations>
       </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="thirst_thirst_id1" id="F5DF3F4B-97A9-5AD0-FF7E-1AD58D79983B">
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="thirst2" id="746EE7A4-B2B1-7DE5-32AC-4E5D0CA6B1D9">
          <createdBy>churchyard</createdBy>
-         <createdTime>2012-11-19 10:10:42 UTC</createdTime>
+         <createdTime>2012-11-19 11:32:47 UTC</createdTime>
          <changedBy>churchyard</changedBy>
-         <changedTime>2012-11-19 10:10:42 UTC</changedTime>
+         <changedTime>2012-11-19 11:41:07 UTC</changedTime>
          <ownerDesignName>dbmodel</ownerDesignName>
          <use>1</use>
          <logicalDatatype>LOGDT011</logicalDatatype>
-         <delegate>81D5BBE1-97A5-FCD6-B677-ADB50D6DE909</delegate>
+         <delegate>FE72ECE3-018A-8961-01C7-76A08C378FC7</delegate>
          <previousColumn>false</previousColumn>
          <associations>
-            <colAssociation fkAssociation="D1391347-EFC0-8084-BFB0-AD0E4AD10B47" referredColumn="81D5BBE1-97A5-FCD6-B677-ADB50D6DE909"/>
+            <colAssociation fkAssociation="57E7C787-5B54-07D8-3381-EEC147EBA0A3" referredColumn="FE72ECE3-018A-8961-01C7-76A08C378FC7"/>
          </associations>
       </Column>
    </columns>
    <indexes>
-      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="9A1B06B0-53DF-E29A-AC61-934310A3D4D9" name="thirst_match__IDX">
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="EC7B45E9-AC49-95CF-F436-4AC4299504CB" name="thirst_match__IDX">
          <createdBy>churchyard</createdBy>
-         <createdTime>2012-11-19 10:10:42 UTC</createdTime>
+         <createdTime>2012-11-19 11:32:47 UTC</createdTime>
          <changedBy>churchyard</changedBy>
-         <changedTime>2012-11-19 10:10:42 UTC</changedTime>
+         <changedTime>2012-11-19 11:32:47 UTC</changedTime>
          <ownerDesignName>dbmodel</ownerDesignName>
          <pk>true</pk>
          <indexState>Primary Constraint</indexState>
          <indexColumnUsage>
-            <colUsage columnID="CAA5EC0E-C98C-A633-EDC1-EC1D1EDBC36A"/>
-            <colUsage columnID="F5DF3F4B-97A9-5AD0-FF7E-1AD58D79983B"/>
+            <colUsage columnID="D10DD328-AD40-2197-7946-E5C4AFB5A3F5"/>
+            <colUsage columnID="746EE7A4-B2B1-7DE5-32AC-4E5D0CA6B1D9"/>
          </indexColumnUsage>
       </ind_PK_UK>
-      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="164C8CA2-FB20-7AE6-673D-C39F258607C8" name="thirst_match__IDX">
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="9AFBDFBB-0D3F-78D8-C74B-4C891E08B838" name="match_thirst1">
          <createdBy>churchyard</createdBy>
-         <createdTime>2012-11-19 10:10:42 UTC</createdTime>
+         <createdTime>2012-11-19 11:32:47 UTC</createdTime>
          <changedBy>churchyard</changedBy>
-         <changedTime>2012-11-19 10:10:42 UTC</changedTime>
+         <changedTime>2012-11-19 11:41:07 UTC</changedTime>
          <generatorID>38DACC00-7AE4-433B-0B1F-F0DB2A0FB601</generatorID>
          <ownerDesignName>dbmodel</ownerDesignName>
          <indexColumnUsage>
-            <colUsage columnID="CAA5EC0E-C98C-A633-EDC1-EC1D1EDBC36A"/>
+            <colUsage columnID="D10DD328-AD40-2197-7946-E5C4AFB5A3F5"/>
          </indexColumnUsage>
       </ind_PK_UK>
-      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="6470188F-7BA5-46D7-6470-F5D397083478" name="thirst_match__IDX">
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="E06B188F-8519-9016-23C9-CD5C717E8611" name="match_thirst2">
          <createdBy>churchyard</createdBy>
-         <createdTime>2012-11-19 10:10:42 UTC</createdTime>
+         <createdTime>2012-11-19 11:32:47 UTC</createdTime>
          <changedBy>churchyard</changedBy>
-         <changedTime>2012-11-19 10:10:42 UTC</changedTime>
+         <changedTime>2012-11-19 11:40:35 UTC</changedTime>
          <generatorID>38DACC00-7AE4-433B-0B1F-F0DB2A0FB601</generatorID>
          <ownerDesignName>dbmodel</ownerDesignName>
          <indexColumnUsage>
-            <colUsage columnID="F5DF3F4B-97A9-5AD0-FF7E-1AD58D79983B"/>
+            <colUsage columnID="746EE7A4-B2B1-7DE5-32AC-4E5D0CA6B1D9"/>
          </indexColumnUsage>
       </ind_PK_UK>
    </indexes>

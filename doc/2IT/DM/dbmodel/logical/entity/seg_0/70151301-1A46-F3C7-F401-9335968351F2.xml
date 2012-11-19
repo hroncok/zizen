@@ -3,7 +3,7 @@
    <createdBy>churchyard</createdBy>
    <createdTime>2012-11-19 10:04:30 UTC</createdTime>
    <changedBy>churchyard</changedBy>
-   <changedTime>2012-11-19 10:08:39 UTC</changedTime>
+   <changedTime>2012-11-19 11:39:45 UTC</changedTime>
    <ownerDesignName>dbmodel</ownerDesignName>
    <pkName>pubs PK</pkName>
    <adequatelyNormalized>NO</adequatelyNormalized>
@@ -105,7 +105,7 @@
          <createdBy>churchyard</createdBy>
          <createdTime>2012-11-19 10:04:30 UTC</createdTime>
          <changedBy>churchyard</changedBy>
-         <changedTime>2012-11-19 10:08:36 UTC</changedTime>
+         <changedTime>2012-11-19 11:39:45 UTC</changedTime>
          <ownerDesignName>dbmodel</ownerDesignName>
          <pk>true</pk>
          <usedAttributes>

@@ -1,12 +1,12 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" id="82F0C01C-87BA-50B4-8A75-A84C24A490E3" directorySegmentName="seg_0" name="pubs">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="83455688-D5AE-DF31-3A64-2F4CF524B821" directorySegmentName="seg_0" name="user_defined_contacts">
    <createdBy>churchyard</createdBy>
-   <createdTime>2012-11-19 10:10:42 UTC</createdTime>
+   <createdTime>2012-11-19 11:32:47 UTC</createdTime>
    <changedBy>churchyard</changedBy>
-   <changedTime>2012-11-19 10:10:42 UTC</changedTime>
-   <generatorID>32040F06-D362-AF8D-94EC-5C7E6A45D794</generatorID>
+   <changedTime>2012-11-19 11:41:29 UTC</changedTime>
+   <generatorID>A246BB84-477E-4CB6-EF0D-F2088FB635AB</generatorID>
    <ownerDesignName>dbmodel</ownerDesignName>
-   <pkName>pubs PK</pkName>
+   <pkName>user_contact PK</pkName>
    <fonts>
       <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
          <foType>Title</foType>
@@ -43,79 +43,80 @@
       </FontObject>
    </fonts>
    <columns>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="pub_id" id="7026C30A-299C-A7A8-276A-E06F74051979">
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="contact_id" id="4A3424C4-5320-7223-444F-4E09D602F193">
          <createdBy>churchyard</createdBy>
-         <createdTime>2012-11-19 10:10:42 UTC</createdTime>
+         <createdTime>2012-11-19 11:32:47 UTC</createdTime>
          <changedBy>churchyard</changedBy>
-         <changedTime>2012-11-19 10:10:42 UTC</changedTime>
-         <generatorID>CE596086-E5FE-F541-861A-5D3F88175F43</generatorID>
+         <changedTime>2012-11-19 11:32:47 UTC</changedTime>
+         <generatorID>97234D53-81FB-9850-49BA-8EA4CB971D54</generatorID>
          <ownerDesignName>dbmodel</ownerDesignName>
          <use>1</use>
          <logicalDatatype>LOGDT011</logicalDatatype>
          <previousColumn>false</previousColumn>
       </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="pub_name" id="E011D12D-269D-B9D8-D9AB-C9C91B801E10">
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="contact_name" id="AACC1C28-F901-CDCC-4FCB-FECA9EC1B0F4">
          <createdBy>churchyard</createdBy>
-         <createdTime>2012-11-19 10:10:42 UTC</createdTime>
+         <createdTime>2012-11-19 11:32:47 UTC</createdTime>
          <changedBy>churchyard</changedBy>
-         <changedTime>2012-11-19 10:10:42 UTC</changedTime>
-         <generatorID>13EE1ACE-CF0F-8C26-58EA-A9B83D4A2D8A</generatorID>
+         <changedTime>2012-11-19 11:32:47 UTC</changedTime>
+         <generatorID>E67E1180-A5D1-72B6-2392-CE9F88CDD5F9</generatorID>
          <ownerDesignName>dbmodel</ownerDesignName>
          <use>1</use>
          <logicalDatatype>LOGDT024</logicalDatatype>
          <dataTypeSize>100</dataTypeSize>
          <previousColumn>false</previousColumn>
       </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="pub_location" id="AF04518E-0CC4-3DE8-BEBE-1FC369897767">
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="contact_value" id="7B3EF7C1-FB5D-81DA-D9E8-27F4599C851A">
          <createdBy>churchyard</createdBy>
-         <createdTime>2012-11-19 10:10:42 UTC</createdTime>
+         <createdTime>2012-11-19 11:32:47 UTC</createdTime>
          <changedBy>churchyard</changedBy>
-         <changedTime>2012-11-19 10:10:42 UTC</changedTime>
-         <generatorID>E4E6B18F-6FC7-0364-789A-9067DA29CB8D</generatorID>
+         <changedTime>2012-11-19 11:32:47 UTC</changedTime>
+         <generatorID>91DB00C7-BA11-B8AB-A96A-229B1668ACCF</generatorID>
          <ownerDesignName>dbmodel</ownerDesignName>
          <use>1</use>
-         <logicalDatatype>LOGDT011</logicalDatatype>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>100</dataTypeSize>
          <previousColumn>false</previousColumn>
       </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="user_id" id="1695993D-446B-BB42-BC57-4390CDAC18F5">
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="user_id" id="D04BE6C7-DFAD-52EA-9A84-736649B42BC6">
          <createdBy>churchyard</createdBy>
-         <createdTime>2012-11-19 10:10:42 UTC</createdTime>
+         <createdTime>2012-11-19 11:32:47 UTC</createdTime>
          <changedBy>churchyard</changedBy>
-         <changedTime>2012-11-19 10:10:42 UTC</changedTime>
-         <generatorID>77BF269A-2925-D9F1-F50C-231FAC221204</generatorID>
+         <changedTime>2012-11-19 11:32:47 UTC</changedTime>
+         <generatorID>323BF92E-3A99-B27B-3977-8EF605485322</generatorID>
          <ownerDesignName>dbmodel</ownerDesignName>
          <use>1</use>
          <logicalDatatype>LOGDT011</logicalDatatype>
-         <delegate>879BCA53-0290-AD58-53FD-3477454255D3</delegate>
+         <delegate>ADCBB99C-4476-CF24-569E-2541A770F88C</delegate>
          <previousColumn>false</previousColumn>
          <associations>
-            <colAssociation fkAssociation="0393196D-52BA-9D83-8F16-8747DF7023F3" referredColumn="879BCA53-0290-AD58-53FD-3477454255D3"/>
+            <colAssociation fkAssociation="B6718365-A5F9-BC1A-C772-0BDEB39A38E8" referredColumn="ADCBB99C-4476-CF24-569E-2541A770F88C"/>
          </associations>
       </Column>
    </columns>
    <indexes>
-      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="1764184C-A4A3-1F80-2ADE-0AA4AE4064CF" name="pubs PK">
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="549F625E-EF31-5BF6-5FA5-1FB5668D9116" name="user_contact PK">
          <createdBy>churchyard</createdBy>
-         <createdTime>2012-11-19 10:10:42 UTC</createdTime>
+         <createdTime>2012-11-19 11:32:47 UTC</createdTime>
          <changedBy>churchyard</changedBy>
-         <changedTime>2012-11-19 10:10:42 UTC</changedTime>
-         <generatorID>F984B481-A47B-6071-8B1D-6494766A5556</generatorID>
+         <changedTime>2012-11-19 11:32:47 UTC</changedTime>
+         <generatorID>5BF9EC14-0CCF-415C-83F0-97034AC550EC</generatorID>
          <ownerDesignName>dbmodel</ownerDesignName>
          <pk>true</pk>
          <indexState>Primary Constraint</indexState>
          <indexColumnUsage>
-            <colUsage columnID="7026C30A-299C-A7A8-276A-E06F74051979"/>
+            <colUsage columnID="4A3424C4-5320-7223-444F-4E09D602F193"/>
          </indexColumnUsage>
       </ind_PK_UK>
-      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="DE6387CD-D037-D47E-2830-CC0DFD028B5C" name="has_favourite_pub">
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="C731E992-C924-025B-87A4-91B6DA030ED8" name="has_contact">
          <createdBy>churchyard</createdBy>
-         <createdTime>2012-11-19 10:10:42 UTC</createdTime>
+         <createdTime>2012-11-19 11:34:11 UTC</createdTime>
          <changedBy>churchyard</changedBy>
-         <changedTime>2012-11-19 10:10:42 UTC</changedTime>
-         <generatorID>F19E43AC-D90B-CFB4-60C7-642E61AA7F65</generatorID>
+         <changedTime>2012-11-19 11:41:29 UTC</changedTime>
+         <generatorID>D5861268-57AE-9BF3-31AB-58618681808F</generatorID>
          <ownerDesignName>dbmodel</ownerDesignName>
          <indexColumnUsage>
-            <colUsage columnID="1695993D-446B-BB42-BC57-4390CDAC18F5"/>
+            <colUsage columnID="D04BE6C7-DFAD-52EA-9A84-736649B42BC6"/>
          </indexColumnUsage>
       </ind_PK_UK>
    </indexes>

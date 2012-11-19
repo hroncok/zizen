@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" id="57E7C787-5B54-07D8-3381-EEC147EBA0A3" directorySegmentName="seg_0" name="match_thirst2">
+   <createdBy>churchyard</createdBy>
+   <createdTime>2012-11-19 11:32:47 UTC</createdTime>
+   <changedBy>churchyard</changedBy>
+   <changedTime>2012-11-19 11:40:35 UTC</changedTime>
+   <generatorID>38DACC00-7AE4-433B-0B1F-F0DB2A0FB601</generatorID>
+   <ownerDesignName>dbmodel</ownerDesignName>
+   <containerWithKeyObject>A2CA04E2-6FF9-4B91-905B-63C0B76B36F2</containerWithKeyObject>
+   <deleteRule>CASCADE</deleteRule>
+   <localFKIndex>E06B188F-8519-9016-23C9-CD5C717E8611</localFKIndex>
+   <keyObject>8848C95E-EAD8-1FCA-BD7A-E9F09F18BE87</keyObject>
+   <mandatory>true</mandatory>
+   <transferable>true</transferable>
+</FKIndexAssociation>

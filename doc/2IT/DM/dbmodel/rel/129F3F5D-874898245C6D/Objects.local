@@ -1,20 +1,21 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <oracle.dbtools.crest.model.design.relational.RelationalDesign>
-   <object objectType="Table" objectID="C100825F-585A-15CB-9180-F517E1E2C642" name="filters" seqName="seg_0"/>
-   <object objectType="Table" objectID="09E32976-172F-60F9-7BED-2C8C9B9EF6D0" name="follows" seqName="seg_0"/>
-   <object objectType="Table" objectID="2225E679-BFF4-BBEF-BE07-D401BDEF6B70" name="locations" seqName="seg_0"/>
-   <object objectType="Table" objectID="82F0C01C-87BA-50B4-8A75-A84C24A490E3" name="pubs" seqName="seg_0"/>
-   <object objectType="Table" objectID="4A551EDB-1579-0B2E-AF3E-6164D8008009" name="thirst" seqName="seg_0"/>
-   <object objectType="Table" objectID="5DCB0BE0-8385-D7DE-1B86-EB1C4E8C87AE" name="thirst_match" seqName="seg_0"/>
-   <object objectType="Table" objectID="935462E4-018B-D1AE-1ABB-0B2489881975" name="user" seqName="seg_0"/>
-   <object objectType="Table" objectID="7A4CA99F-02C4-8B02-9E93-F72B5FDBD8F4" name="user_contact" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="B6E4DE47-1C8C-30DC-C2C9-00B2FF24D794" name="FK_ASS_1" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="48F1BF36-45F2-8FBB-7D2B-4691983FA5B0" name="FK_ASS_2" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="3086DE3F-B487-DF64-07DC-07A2C9E61783" name="FK_ASS_8" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="D1391347-EFC0-8084-BFB0-AD0E4AD10B47" name="FK_ASS_9" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="FF02F42E-1D53-A2ED-B08A-98918490AD07" name="Relation_6" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="CBA81CAD-C400-B790-F3A1-3E99D8C9D1AB" name="Relation_7" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="ED7EBBAD-354B-7DBF-01C8-F8F385DC7B85" name="default_filter" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="EFBD8485-4CA5-C8F0-8DA7-8814AA81A882" name="has_contact" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="0393196D-52BA-9D83-8F16-8747DF7023F3" name="has_favourite_pub" seqName="seg_0"/>
+   <object objectType="Table" objectID="A65ADBC3-EC42-E665-DC0D-1EAE47077AF5" name="filters" seqName="seg_0"/>
+   <object objectType="Table" objectID="5C87E697-567A-9B7E-D0C7-179F71E2064D" name="follows" seqName="seg_0"/>
+   <object objectType="Table" objectID="3D1673DF-10F8-AFBC-1714-C3BFA85F92C7" name="locations" seqName="seg_0"/>
+   <object objectType="Table" objectID="6D91031A-47A7-1D7A-550C-CE693248B3A6" name="pubs" seqName="seg_0"/>
+   <object objectType="Table" objectID="BC3F59AF-2964-7068-A4C5-551E6DB0DCE9" name="thirst" seqName="seg_0"/>
+   <object objectType="Table" objectID="A2CA04E2-6FF9-4B91-905B-63C0B76B36F2" name="thirst_match" seqName="seg_0"/>
+   <object objectType="Table" objectID="58CA4DD1-82EC-9E9C-58AD-E755C12C7EFD" name="user" seqName="seg_0"/>
+   <object objectType="Table" objectID="83455688-D5AE-DF31-3A64-2F4CF524B821" name="user_defined_contacts" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="9D36A99A-C6B2-7974-4185-0695E132CC01" name="default_filter" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="542D7282-2ADA-81E2-638A-474265D8D400" name="follows" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="B6718365-A5F9-BC1A-C772-0BDEB39A38E8" name="has_contact" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="8775BEEF-161D-4F04-DDA7-666D0B9565FD" name="has_favourite_pub" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="EDF43A67-8691-5BED-935D-0047EE24C22E" name="has_loacation" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="45B56D77-18CB-8095-6C78-BB87E4BFEFE9" name="has_thirst" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="052B42E2-858A-935F-3AAE-4F6C86D5917B" name="in_location" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="210156AE-BB5C-5E8E-C342-DAB2D869C451" name="is_followed" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="A1D1481C-6D9A-4EC5-ED01-683ADAF4EC02" name="match_thirst1" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="57E7C787-5B54-07D8-3381-EEC147EBA0A3" name="match_thirst2" seqName="seg_0"/>
 </oracle.dbtools.crest.model.design.relational.RelationalDesign>

@@ -1,9 +1,9 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" id="09E32976-172F-60F9-7BED-2C8C9B9EF6D0" directorySegmentName="seg_0" name="follows">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="5C87E697-567A-9B7E-D0C7-179F71E2064D" directorySegmentName="seg_0" name="follows">
    <createdBy>churchyard</createdBy>
-   <createdTime>2012-11-19 09:50:27 UTC</createdTime>
+   <createdTime>2012-11-19 11:32:47 UTC</createdTime>
    <changedBy>churchyard</changedBy>
-   <changedTime>2012-11-19 09:50:27 UTC</changedTime>
+   <changedTime>2012-11-19 11:42:22 UTC</changedTime>
    <ownerDesignName>dbmodel</ownerDesignName>
    <pkName>follows__IDX</pkName>
    <fonts>
@@ -42,69 +42,69 @@
       </FontObject>
    </fonts>
    <columns>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="user_user_id" id="22AC35AD-6717-B770-F856-B36D4DC43588">
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="primary_user_id" id="D1D2AAA6-2D1D-5843-6C15-F6779DD35C33">
          <createdBy>churchyard</createdBy>
-         <createdTime>2012-11-19 09:50:27 UTC</createdTime>
+         <createdTime>2012-11-19 11:32:47 UTC</createdTime>
          <changedBy>churchyard</changedBy>
-         <changedTime>2012-11-19 09:50:27 UTC</changedTime>
+         <changedTime>2012-11-19 11:42:01 UTC</changedTime>
          <ownerDesignName>dbmodel</ownerDesignName>
          <use>1</use>
          <logicalDatatype>LOGDT011</logicalDatatype>
-         <delegate>879BCA53-0290-AD58-53FD-3477454255D3</delegate>
+         <delegate>ADCBB99C-4476-CF24-569E-2541A770F88C</delegate>
          <previousColumn>false</previousColumn>
          <associations>
-            <colAssociation fkAssociation="B6E4DE47-1C8C-30DC-C2C9-00B2FF24D794" referredColumn="879BCA53-0290-AD58-53FD-3477454255D3"/>
+            <colAssociation fkAssociation="542D7282-2ADA-81E2-638A-474265D8D400" referredColumn="ADCBB99C-4476-CF24-569E-2541A770F88C"/>
          </associations>
       </Column>
-      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="user_user_id1" id="DC9886B2-182A-3615-BE41-6809731BEF1F">
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="secondary_user_id" id="9950F22C-2724-022E-783A-6092E00F9D89">
          <createdBy>churchyard</createdBy>
-         <createdTime>2012-11-19 09:50:27 UTC</createdTime>
+         <createdTime>2012-11-19 11:32:47 UTC</createdTime>
          <changedBy>churchyard</changedBy>
-         <changedTime>2012-11-19 09:50:27 UTC</changedTime>
+         <changedTime>2012-11-19 11:42:01 UTC</changedTime>
          <ownerDesignName>dbmodel</ownerDesignName>
          <use>1</use>
          <logicalDatatype>LOGDT011</logicalDatatype>
-         <delegate>879BCA53-0290-AD58-53FD-3477454255D3</delegate>
+         <delegate>ADCBB99C-4476-CF24-569E-2541A770F88C</delegate>
          <previousColumn>false</previousColumn>
          <associations>
-            <colAssociation fkAssociation="48F1BF36-45F2-8FBB-7D2B-4691983FA5B0" referredColumn="879BCA53-0290-AD58-53FD-3477454255D3"/>
+            <colAssociation fkAssociation="210156AE-BB5C-5E8E-C342-DAB2D869C451" referredColumn="ADCBB99C-4476-CF24-569E-2541A770F88C"/>
          </associations>
       </Column>
    </columns>
    <indexes>
-      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="66A95EB9-53AB-F98E-AC9D-0A01F89FAB30" name="follows__IDX">
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="0EF3B4B1-7628-9D0D-D454-45B994E00F2B" name="follows__IDX">
          <createdBy>churchyard</createdBy>
-         <createdTime>2012-11-19 09:50:27 UTC</createdTime>
+         <createdTime>2012-11-19 11:32:47 UTC</createdTime>
          <changedBy>churchyard</changedBy>
-         <changedTime>2012-11-19 09:50:27 UTC</changedTime>
+         <changedTime>2012-11-19 11:32:47 UTC</changedTime>
          <ownerDesignName>dbmodel</ownerDesignName>
          <pk>true</pk>
          <indexState>Primary Constraint</indexState>
          <indexColumnUsage>
-            <colUsage columnID="22AC35AD-6717-B770-F856-B36D4DC43588"/>
-            <colUsage columnID="DC9886B2-182A-3615-BE41-6809731BEF1F"/>
+            <colUsage columnID="D1D2AAA6-2D1D-5843-6C15-F6779DD35C33"/>
+            <colUsage columnID="9950F22C-2724-022E-783A-6092E00F9D89"/>
          </indexColumnUsage>
       </ind_PK_UK>
-      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="10652102-45CB-358F-B066-EE3F46C333AD" name="follows__IDX">
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="556CDB78-76E4-7AA4-D4CB-36F55E9A984A" name="follows">
          <createdBy>churchyard</createdBy>
-         <createdTime>2012-11-19 09:50:27 UTC</createdTime>
+         <createdTime>2012-11-19 11:32:47 UTC</createdTime>
          <changedBy>churchyard</changedBy>
-         <changedTime>2012-11-19 09:50:27 UTC</changedTime>
+         <changedTime>2012-11-19 11:42:17 UTC</changedTime>
          <generatorID>679E467B-FC9F-7124-5B65-931539A08C7A</generatorID>
          <ownerDesignName>dbmodel</ownerDesignName>
          <indexColumnUsage>
-            <colUsage columnID="22AC35AD-6717-B770-F856-B36D4DC43588"/>
+            <colUsage columnID="D1D2AAA6-2D1D-5843-6C15-F6779DD35C33"/>
          </indexColumnUsage>
       </ind_PK_UK>
-      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="DCC697C3-E799-9E87-0290-DDDD403C91BF" name="follows__IDX">
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="A184F5D8-FF64-47B8-D8AD-49A539BBCB9E" name="is_followed">
          <createdBy>churchyard</createdBy>
-         <createdTime>2012-11-19 09:50:27 UTC</createdTime>
+         <createdTime>2012-11-19 11:32:47 UTC</createdTime>
          <changedBy>churchyard</changedBy>
-         <changedTime>2012-11-19 09:50:27 UTC</changedTime>
+         <changedTime>2012-11-19 11:42:22 UTC</changedTime>
          <generatorID>679E467B-FC9F-7124-5B65-931539A08C7A</generatorID>
          <ownerDesignName>dbmodel</ownerDesignName>
          <indexColumnUsage>
-            <colUsage columnID="DC9886B2-182A-3615-BE41-6809731BEF1F"/>
+            <colUsage columnID="9950F22C-2724-022E-783A-6092E00F9D89"/>
          </indexColumnUsage>
       </ind_PK_UK>
    </indexes>
