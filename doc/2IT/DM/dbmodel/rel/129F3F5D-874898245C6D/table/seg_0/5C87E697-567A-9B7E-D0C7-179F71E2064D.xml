@@ -3,7 +3,7 @@
    <createdBy>churchyard</createdBy>
    <createdTime>2012-11-19 11:32:47 UTC</createdTime>
    <changedBy>churchyard</changedBy>
-   <changedTime>2012-11-19 11:42:22 UTC</changedTime>
+   <changedTime>2012-11-19 13:46:01 UTC</changedTime>
    <ownerDesignName>dbmodel</ownerDesignName>
    <pkName>follows__IDX</pkName>
    <fonts>
@@ -81,8 +81,8 @@
          <pk>true</pk>
          <indexState>Primary Constraint</indexState>
          <indexColumnUsage>
-            <colUsage columnID="D1D2AAA6-2D1D-5843-6C15-F6779DD35C33"/>
             <colUsage columnID="9950F22C-2724-022E-783A-6092E00F9D89"/>
+            <colUsage columnID="D1D2AAA6-2D1D-5843-6C15-F6779DD35C33"/>
          </indexColumnUsage>
       </ind_PK_UK>
       <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="556CDB78-76E4-7AA4-D4CB-36F55E9A984A" name="follows">

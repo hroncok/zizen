@@ -3,7 +3,7 @@
    <createdBy>churchyard</createdBy>
    <createdTime>2012-11-19 11:32:47 UTC</createdTime>
    <changedBy>churchyard</changedBy>
-   <changedTime>2012-11-19 11:39:50 UTC</changedTime>
+   <changedTime>2012-11-19 13:45:42 UTC</changedTime>
    <generatorID>0E1332C5-F5F2-FA34-8838-3C9DD95D9A34</generatorID>
    <ownerDesignName>dbmodel</ownerDesignName>
    <pkName>user PK</pkName>
@@ -167,17 +167,6 @@
          <indexState>Primary Constraint</indexState>
          <indexColumnUsage>
             <colUsage columnID="ADCBB99C-4476-CF24-569E-2541A770F88C"/>
-         </indexColumnUsage>
-      </ind_PK_UK>
-      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="F4BEFE43-2C88-CDC6-6660-1C0FE174D552" name="user__IDX">
-         <createdBy>churchyard</createdBy>
-         <createdTime>2012-11-19 11:32:47 UTC</createdTime>
-         <changedBy>churchyard</changedBy>
-         <changedTime>2012-11-19 11:32:47 UTC</changedTime>
-         <ownerDesignName>dbmodel</ownerDesignName>
-         <indexState>Unique Plain Index</indexState>
-         <indexColumnUsage>
-            <colUsage columnID="90068AA1-D72E-0040-19A0-D13B290A4986"/>
          </indexColumnUsage>
       </ind_PK_UK>
       <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="A4D6DF74-7112-B60C-3A62-D2F0B259420D" name="default_filter">
