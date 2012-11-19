@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" id="70151301-1A46-F3C7-F401-9335968351F2" directorySegmentName="seg_0" name="locations">
+   <createdBy>churchyard</createdBy>
+   <createdTime>2012-11-19 10:04:30 UTC</createdTime>
+   <changedBy>churchyard</changedBy>
+   <changedTime>2012-11-19 10:08:39 UTC</changedTime>
+   <ownerDesignName>dbmodel</ownerDesignName>
+   <pkName>pubs PK</pkName>
+   <adequatelyNormalized>NO</adequatelyNormalized>
+   <expectedVolumes>0</expectedVolumes>
+   <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+   <growthPercent>0</growthPercent>
+   <growthType>Year</growthType>
+   <maxVolumes>9999999</maxVolumes>
+   <minVolumes>0</minVolumes>
+   <normalForm>Third</normalForm>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Attribute</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <attributes>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="location_id" id="E7FB3197-BEC8-25EF-E42D-4B1941165BD4">
+         <createdBy>churchyard</createdBy>
+         <createdTime>2012-11-19 10:04:30 UTC</createdTime>
+         <changedBy>churchyard</changedBy>
+         <changedTime>2012-11-19 10:04:45 UTC</changedTime>
+         <ownerDesignName>dbmodel</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT011</logicalDatatype>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="location_name" id="42A0E4E6-E905-25C8-BE66-079F788FB066">
+         <createdBy>churchyard</createdBy>
+         <createdTime>2012-11-19 10:04:30 UTC</createdTime>
+         <changedBy>churchyard</changedBy>
+         <changedTime>2012-11-19 10:04:50 UTC</changedTime>
+         <ownerDesignName>dbmodel</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>100</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="location_location" id="B70E6C03-42DC-4CF6-78BF-EAC856900AE5">
+         <createdBy>churchyard</createdBy>
+         <createdTime>2012-11-19 10:04:30 UTC</createdTime>
+         <changedBy>churchyard</changedBy>
+         <changedTime>2012-11-19 10:04:56 UTC</changedTime>
+         <ownerDesignName>dbmodel</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT011</logicalDatatype>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="is_default" id="B99B3C3C-213A-448F-E753-93053DAC3760">
+         <createdBy>churchyard</createdBy>
+         <createdTime>2012-11-19 10:04:57 UTC</createdTime>
+         <changedBy>churchyard</changedBy>
+         <changedTime>2012-11-19 10:05:10 UTC</changedTime>
+         <ownerDesignName>dbmodel</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT006</logicalDatatype>
+         <dataTypeSize>1</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="user_id" id="F45FE917-DE62-6C9E-5A42-C4F9554EDC34">
+         <createdBy>churchyard</createdBy>
+         <createdTime>2012-11-19 10:05:24 UTC</createdTime>
+         <changedBy>churchyard</changedBy>
+         <changedTime>2012-11-19 10:05:24 UTC</changedTime>
+         <generatorID>78243D54-1F22-E159-E8F9-31EA2DA5AEF7</generatorID>
+         <ownerDesignName>dbmodel</ownerDesignName>
+         <referedAttribute>A1891FA2-12CA-F9D2-993C-C5FDDC1E8BD9</referedAttribute>
+         <use>1</use>
+         <logicalDatatype>LOGDT011</logicalDatatype>
+      </Attribute>
+   </attributes>
+   <identifiers>
+      <identifier class="oracle.dbtools.crest.model.design.logical.CandidateKey" id="962EADC0-E21C-48CC-2CB3-B070C3FBDECB" name="pubs PK">
+         <createdBy>churchyard</createdBy>
+         <createdTime>2012-11-19 10:04:30 UTC</createdTime>
+         <changedBy>churchyard</changedBy>
+         <changedTime>2012-11-19 10:08:36 UTC</changedTime>
+         <ownerDesignName>dbmodel</ownerDesignName>
+         <pk>true</pk>
+         <usedAttributes>
+            <attributeRef>E7FB3197-BEC8-25EF-E42D-4B1941165BD4</attributeRef>
+         </usedAttributes>
+      </identifier>
+   </identifiers>
+</Entity>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="thirst_match" id="38DACC00-7AE4-433B-0B1F-F0DB2A0FB601" directorySegmentName="seg_0">
+   <createdBy>churchyard</createdBy>
+   <createdTime>2012-11-19 10:10:10 UTC</createdTime>
+   <changedBy>churchyard</changedBy>
+   <changedTime>2012-11-19 10:10:27 UTC</changedTime>
+   <ownerDesignName>dbmodel</ownerDesignName>
+   <identifying>false</identifying>
+   <optionalSource>true</optionalSource>
+   <optionalTarget>true</optionalTarget>
+   <sourceCardinality>*</sourceCardinality>
+   <sourceEntity>417EC152-A8E6-20D1-8B39-CC937DD177D3</sourceEntity>
+   <targetCardinalityString>*</targetCardinalityString>
+   <targetEntity>417EC152-A8E6-20D1-8B39-CC937DD177D3</targetEntity>
+   <transferable>true</transferable>
+</Relation>

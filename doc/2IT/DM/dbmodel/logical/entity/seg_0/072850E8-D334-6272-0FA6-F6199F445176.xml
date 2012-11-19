@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" id="072850E8-D334-6272-0FA6-F6199F445176" directorySegmentName="seg_0" name="filters">
+   <createdBy>churchyard</createdBy>
+   <createdTime>2012-11-19 09:55:25 UTC</createdTime>
+   <changedBy>churchyard</changedBy>
+   <changedTime>2012-11-19 10:03:52 UTC</changedTime>
+   <ownerDesignName>dbmodel</ownerDesignName>
+   <pkName>filters PK</pkName>
+   <adequatelyNormalized>NO</adequatelyNormalized>
+   <expectedVolumes>0</expectedVolumes>
+   <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+   <growthPercent>0</growthPercent>
+   <growthType>Year</growthType>
+   <maxVolumes>9999999</maxVolumes>
+   <minVolumes>0</minVolumes>
+   <normalForm>Third</normalForm>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Attribute</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <attributes>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="filter_id" id="9C1F7806-3D48-BA0D-A81D-16EBFDB6D4EF">
+         <createdBy>churchyard</createdBy>
+         <createdTime>2012-11-19 09:55:43 UTC</createdTime>
+         <changedBy>churchyard</changedBy>
+         <changedTime>2012-11-19 09:56:04 UTC</changedTime>
+         <ownerDesignName>dbmodel</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT011</logicalDatatype>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="friend_radius" id="A9543D36-3AA2-1020-E1B6-3F4BDB0EB450">
+         <createdBy>churchyard</createdBy>
+         <createdTime>2012-11-19 09:56:06 UTC</createdTime>
+         <changedBy>churchyard</changedBy>
+         <changedTime>2012-11-19 09:56:23 UTC</changedTime>
+         <ownerDesignName>dbmodel</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT011</logicalDatatype>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="other_radius" id="83B7B70E-FBAE-650B-CDAD-D67F8CA7E4D6">
+         <createdBy>churchyard</createdBy>
+         <createdTime>2012-11-19 09:56:25 UTC</createdTime>
+         <changedBy>churchyard</changedBy>
+         <changedTime>2012-11-19 09:56:39 UTC</changedTime>
+         <ownerDesignName>dbmodel</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT011</logicalDatatype>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="age_min" id="AFD3F12D-9923-8F27-84DE-4DA6DCF22DBD">
+         <createdBy>churchyard</createdBy>
+         <createdTime>2012-11-19 09:56:52 UTC</createdTime>
+         <changedBy>churchyard</changedBy>
+         <changedTime>2012-11-19 09:57:14 UTC</changedTime>
+         <ownerDesignName>dbmodel</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT011</logicalDatatype>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="age_max" id="7C9CCA63-D25E-119B-5495-3EC1F39068CA">
+         <createdBy>churchyard</createdBy>
+         <createdTime>2012-11-19 09:57:14 UTC</createdTime>
+         <changedBy>churchyard</changedBy>
+         <changedTime>2012-11-19 09:57:22 UTC</changedTime>
+         <ownerDesignName>dbmodel</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT011</logicalDatatype>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="filter_sex" id="1D2CAEE7-C5FF-3798-FECA-082C0F655243">
+         <createdBy>churchyard</createdBy>
+         <createdTime>2012-11-19 09:57:38 UTC</createdTime>
+         <changedBy>churchyard</changedBy>
+         <changedTime>2012-11-19 10:01:58 UTC</changedTime>
+         <ownerDesignName>dbmodel</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT006</logicalDatatype>
+         <dataTypeSize>1</dataTypeSize>
+      </Attribute>
+   </attributes>
+   <identifiers>
+      <identifier class="oracle.dbtools.crest.model.design.logical.CandidateKey" id="F50E2E0E-9FF9-5124-0705-3E76817AB9D6" name="filters PK">
+         <createdBy>churchyard</createdBy>
+         <createdTime>2012-11-19 09:56:02 UTC</createdTime>
+         <changedBy>churchyard</changedBy>
+         <changedTime>2012-11-19 10:03:49 UTC</changedTime>
+         <ownerDesignName>dbmodel</ownerDesignName>
+         <pk>true</pk>
+         <usedAttributes>
+            <attributeRef>9C1F7806-3D48-BA0D-A81D-16EBFDB6D4EF</attributeRef>
+         </usedAttributes>
+      </identifier>
+   </identifiers>
+</Entity>

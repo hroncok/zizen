@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="072850E8-D334-6272-0FA6-F6199F445176" name="filters" seqName="seg_0"/>
+   <object objectType="Entity" objectID="70151301-1A46-F3C7-F401-9335968351F2" name="locations" seqName="seg_0"/>
+   <object objectType="Entity" objectID="32040F06-D362-AF8D-94EC-5C7E6A45D794" name="pubs" seqName="seg_0"/>
+   <object objectType="Entity" objectID="417EC152-A8E6-20D1-8B39-CC937DD177D3" name="thirst" seqName="seg_0"/>
+   <object objectType="Entity" objectID="0E1332C5-F5F2-FA34-8838-3C9DD95D9A34" name="user" seqName="seg_0"/>
+   <object objectType="Entity" objectID="A246BB84-477E-4CB6-EF0D-F2088FB635AB" name="user_defined_contacts" seqName="seg_0"/>
+   <object objectType="Relation" objectID="78243D54-1F22-E159-E8F9-31EA2DA5AEF7" name="Relation_6" seqName="seg_0"/>
+   <object objectType="Relation" objectID="98D4DFFB-EE47-22D1-FA7E-45B531277EB3" name="Relation_7" seqName="seg_0"/>
+   <object objectType="Relation" objectID="59682B36-F9D6-E0EA-79C4-078FB4DEAA63" name="default_filter" seqName="seg_0"/>
+   <object objectType="Relation" objectID="679E467B-FC9F-7124-5B65-931539A08C7A" name="follows" seqName="seg_0"/>
+   <object objectType="Relation" objectID="EB2D21BF-5D75-A0BC-C6BE-A6D8432D63A4" name="has_contact" seqName="seg_0"/>
+   <object objectType="Relation" objectID="F19E43AC-D90B-CFB4-60C7-642E61AA7F65" name="has_favourite_pub" seqName="seg_0"/>
+   <object objectType="Relation" objectID="38DACC00-7AE4-433B-0B1F-F0DB2A0FB601" name="thirst_match" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

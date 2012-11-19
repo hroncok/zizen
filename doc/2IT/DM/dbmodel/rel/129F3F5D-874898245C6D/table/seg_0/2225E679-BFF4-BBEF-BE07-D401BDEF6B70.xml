@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="2225E679-BFF4-BBEF-BE07-D401BDEF6B70" directorySegmentName="seg_0" name="locations">
+   <createdBy>churchyard</createdBy>
+   <createdTime>2012-11-19 10:10:42 UTC</createdTime>
+   <changedBy>churchyard</changedBy>
+   <changedTime>2012-11-19 10:10:42 UTC</changedTime>
+   <generatorID>70151301-1A46-F3C7-F401-9335968351F2</generatorID>
+   <ownerDesignName>dbmodel</ownerDesignName>
+   <pkName>pubs PK</pkName>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Column</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <columns>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="location_id" id="BA8D00D9-BB75-3898-798B-C1300B1B36B9">
+         <createdBy>churchyard</createdBy>
+         <createdTime>2012-11-19 10:10:42 UTC</createdTime>
+         <changedBy>churchyard</changedBy>
+         <changedTime>2012-11-19 10:10:42 UTC</changedTime>
+         <generatorID>E7FB3197-BEC8-25EF-E42D-4B1941165BD4</generatorID>
+         <ownerDesignName>dbmodel</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT011</logicalDatatype>
+         <previousColumn>false</previousColumn>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="location_name" id="F50F1EB2-3DA4-E495-51CC-5E07068BA995">
+         <createdBy>churchyard</createdBy>
+         <createdTime>2012-11-19 10:10:42 UTC</createdTime>
+         <changedBy>churchyard</changedBy>
+         <changedTime>2012-11-19 10:10:42 UTC</changedTime>
+         <generatorID>42A0E4E6-E905-25C8-BE66-079F788FB066</generatorID>
+         <ownerDesignName>dbmodel</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>100</dataTypeSize>
+         <previousColumn>false</previousColumn>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="location_location" id="52F69D26-82FF-AA3A-96BA-56E5CF27DF56">
+         <createdBy>churchyard</createdBy>
+         <createdTime>2012-11-19 10:10:42 UTC</createdTime>
+         <changedBy>churchyard</changedBy>
+         <changedTime>2012-11-19 10:10:42 UTC</changedTime>
+         <generatorID>B70E6C03-42DC-4CF6-78BF-EAC856900AE5</generatorID>
+         <ownerDesignName>dbmodel</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT011</logicalDatatype>
+         <previousColumn>false</previousColumn>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="is_default" id="9680A320-5AFE-964A-8CA5-1CCBFA55BC31">
+         <createdBy>churchyard</createdBy>
+         <createdTime>2012-11-19 10:10:42 UTC</createdTime>
+         <changedBy>churchyard</changedBy>
+         <changedTime>2012-11-19 10:10:42 UTC</changedTime>
+         <generatorID>B99B3C3C-213A-448F-E753-93053DAC3760</generatorID>
+         <ownerDesignName>dbmodel</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT006</logicalDatatype>
+         <dataTypeSize>1</dataTypeSize>
+         <previousColumn>false</previousColumn>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="user_id" id="FF2F94D5-96FD-D553-23A1-9DFC87C1E51C">
+         <createdBy>churchyard</createdBy>
+         <createdTime>2012-11-19 10:10:42 UTC</createdTime>
+         <changedBy>churchyard</changedBy>
+         <changedTime>2012-11-19 10:10:42 UTC</changedTime>
+         <generatorID>F45FE917-DE62-6C9E-5A42-C4F9554EDC34</generatorID>
+         <ownerDesignName>dbmodel</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT011</logicalDatatype>
+         <delegate>879BCA53-0290-AD58-53FD-3477454255D3</delegate>
+         <previousColumn>false</previousColumn>
+         <associations>
+            <colAssociation fkAssociation="FF02F42E-1D53-A2ED-B08A-98918490AD07" referredColumn="879BCA53-0290-AD58-53FD-3477454255D3"/>
+         </associations>
+      </Column>
+   </columns>
+   <indexes>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="4BF861A1-C810-18D0-B402-5EA93A2161D4" name="pubs PK">
+         <createdBy>churchyard</createdBy>
+         <createdTime>2012-11-19 10:10:42 UTC</createdTime>
+         <changedBy>churchyard</changedBy>
+         <changedTime>2012-11-19 10:10:42 UTC</changedTime>
+         <generatorID>962EADC0-E21C-48CC-2CB3-B070C3FBDECB</generatorID>
+         <ownerDesignName>dbmodel</ownerDesignName>
+         <pk>true</pk>
+         <indexState>Primary Constraint</indexState>
+         <indexColumnUsage>
+            <colUsage columnID="BA8D00D9-BB75-3898-798B-C1300B1B36B9"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="3CBC1E6F-492E-4733-5388-8D67C03874E1" name="Relation_6">
+         <createdBy>churchyard</createdBy>
+         <createdTime>2012-11-19 10:10:42 UTC</createdTime>
+         <changedBy>churchyard</changedBy>
+         <changedTime>2012-11-19 10:10:42 UTC</changedTime>
+         <generatorID>78243D54-1F22-E159-E8F9-31EA2DA5AEF7</generatorID>
+         <ownerDesignName>dbmodel</ownerDesignName>
+         <indexColumnUsage>
+            <colUsage columnID="FF2F94D5-96FD-D553-23A1-9DFC87C1E51C"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+   </indexes>
+</Table>

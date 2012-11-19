@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DataTypesDesign class="oracle.dbtools.crest.model.design.datatypes.DataTypesDesign" name="DataTypes" id="2F718ED0-519D-90AA-8B2B-ABC9D628844E" mainViewID="C6F70CBB-48EB-7811-6D17-807623E2C36A">
+   <createdBy>churchyard</createdBy>
+   <createdTime>2012-11-19 09:34:16 UTC</createdTime>
+   <changedBy>churchyard</changedBy>
+   <changedTime>2012-11-19 09:34:16 UTC</changedTime>
+   <ownerDesignName>dbmodel</ownerDesignName>
+   <shouldBeOpen>false</shouldBeOpen>
+</DataTypesDesign>

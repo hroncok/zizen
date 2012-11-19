@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" id="B6E4DE47-1C8C-30DC-C2C9-00B2FF24D794" directorySegmentName="seg_0" name="FK_ASS_1">
+   <createdBy>churchyard</createdBy>
+   <createdTime>2012-11-19 09:50:27 UTC</createdTime>
+   <changedBy>churchyard</changedBy>
+   <changedTime>2012-11-19 09:50:27 UTC</changedTime>
+   <generatorID>679E467B-FC9F-7124-5B65-931539A08C7A</generatorID>
+   <ownerDesignName>dbmodel</ownerDesignName>
+   <containerWithKeyObject>09E32976-172F-60F9-7BED-2C8C9B9EF6D0</containerWithKeyObject>
+   <deleteRule>CASCADE</deleteRule>
+   <localFKIndex>10652102-45CB-358F-B066-EE3F46C333AD</localFKIndex>
+   <keyObject>F89BAC0F-1E7E-689D-7A85-95B935732280</keyObject>
+   <mandatory>true</mandatory>
+   <transferable>true</transferable>
+</FKIndexAssociation>

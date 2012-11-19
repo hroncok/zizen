@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="has_contact" id="EB2D21BF-5D75-A0BC-C6BE-A6D8432D63A4" directorySegmentName="seg_0">
+   <createdBy>churchyard</createdBy>
+   <createdTime>2012-11-19 09:48:54 UTC</createdTime>
+   <changedBy>churchyard</changedBy>
+   <changedTime>2012-11-19 10:10:42 UTC</changedTime>
+   <ownerDesignName>dbmodel</ownerDesignName>
+   <shouldEngineer>false</shouldEngineer>
+   <identifying>false</identifying>
+   <optionalSource>true</optionalSource>
+   <optionalTarget>false</optionalTarget>
+   <sourceCardinality>1</sourceCardinality>
+   <sourceEntity>0E1332C5-F5F2-FA34-8838-3C9DD95D9A34</sourceEntity>
+   <targetCardinalityString>*</targetCardinalityString>
+   <targetEntity>A246BB84-477E-4CB6-EF0D-F2088FB635AB</targetEntity>
+   <transferable>true</transferable>
+</Relation>

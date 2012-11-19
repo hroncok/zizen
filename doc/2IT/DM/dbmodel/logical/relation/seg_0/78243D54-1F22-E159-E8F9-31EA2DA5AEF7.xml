@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_6" id="78243D54-1F22-E159-E8F9-31EA2DA5AEF7" directorySegmentName="seg_0">
+   <createdBy>churchyard</createdBy>
+   <createdTime>2012-11-19 10:05:24 UTC</createdTime>
+   <changedBy>churchyard</changedBy>
+   <changedTime>2012-11-19 10:05:42 UTC</changedTime>
+   <ownerDesignName>dbmodel</ownerDesignName>
+   <identifying>false</identifying>
+   <optionalSource>true</optionalSource>
+   <optionalTarget>false</optionalTarget>
+   <sourceCardinality>1</sourceCardinality>
+   <sourceEntity>0E1332C5-F5F2-FA34-8838-3C9DD95D9A34</sourceEntity>
+   <targetCardinalityString>*</targetCardinalityString>
+   <targetEntity>70151301-1A46-F3C7-F401-9335968351F2</targetEntity>
+   <transferable>true</transferable>
+</Relation>
