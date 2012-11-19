@@ -12,6 +12,7 @@
    <object objectType="FKIndexAssociation" objectID="542D7282-2ADA-81E2-638A-474265D8D400" name="follows" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="B6718365-A5F9-BC1A-C772-0BDEB39A38E8" name="has_contact" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="8775BEEF-161D-4F04-DDA7-666D0B9565FD" name="has_favourite_pub" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="A185DE44-1030-91FC-191F-492CA5DD4582" name="has_filter" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="EDF43A67-8691-5BED-935D-0047EE24C22E" name="has_loacation" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="45B56D77-18CB-8095-6C78-BB87E4BFEFE9" name="has_thirst" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="052B42E2-858A-935F-3AAE-4F6C86D5917B" name="in_location" seqName="seg_0"/>

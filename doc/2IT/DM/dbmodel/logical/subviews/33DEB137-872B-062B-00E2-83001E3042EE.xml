@@ -3,7 +3,7 @@
    <createdBy>churchyard</createdBy>
    <createdTime>2012-11-19 09:36:11 UTC</createdTime>
    <changedBy>churchyard</changedBy>
-   <changedTime>2012-11-19 11:37:46 UTC</changedTime>
+   <changedTime>2012-11-19 12:43:17 UTC</changedTime>
    <autoRoute>false</autoRoute>
    <boxInbox>true</boxInbox>
    <showLegend>false</showLegend>
@@ -75,6 +75,14 @@
             <point x="750" y="450"/>
             <point x="870" y="453"/>
             <point x="924" y="539"/>
+         </points>
+      </Connector>
+      <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="801627D1-341E-8C7B-CD1C-9F0AFB05ADD8" otype="Relation" vid_source="DD375D02-229D-04B9-DDC6-7D951CBA82C6" vid_target="4BCE8BE8-FA61-C4A2-836D-70EFE0A9570A">
+         <lineWidth>1</lineWidth>
+         <points>
+            <point x="776" y="284"/>
+            <point x="800" y="180"/>
+            <point x="715" y="148"/>
          </points>
       </Connector>
       <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="98D4DFFB-EE47-22D1-FA7E-45B531277EB3" otype="Relation" vid_source="4BCE8BE8-FA61-C4A2-836D-70EFE0A9570A" vid_target="F40CACED-4A29-2388-76A4-5016C27E3D78">

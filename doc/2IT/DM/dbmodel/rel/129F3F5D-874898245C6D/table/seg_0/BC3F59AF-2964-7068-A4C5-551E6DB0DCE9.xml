@@ -3,7 +3,7 @@
    <createdBy>churchyard</createdBy>
    <createdTime>2012-11-19 11:32:47 UTC</createdTime>
    <changedBy>churchyard</changedBy>
-   <changedTime>2012-11-19 11:40:12 UTC</changedTime>
+   <changedTime>2012-11-19 12:43:25 UTC</changedTime>
    <generatorID>417EC152-A8E6-20D1-8B39-CC937DD177D3</generatorID>
    <ownerDesignName>dbmodel</ownerDesignName>
    <pkName>thirst PK</pkName>
@@ -106,6 +106,19 @@
             <colAssociation fkAssociation="052B42E2-858A-935F-3AAE-4F6C86D5917B" referredColumn="60DAD602-B0A4-9043-526D-66CA95BED813"/>
          </associations>
       </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="filter_id" id="A17514A4-0AF1-C3B3-5846-ADA7709E9C37">
+         <createdBy>churchyard</createdBy>
+         <createdTime>2012-11-19 12:41:59 UTC</createdTime>
+         <changedBy>churchyard</changedBy>
+         <changedTime>2012-11-19 12:41:59 UTC</changedTime>
+         <ownerDesignName>dbmodel</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT011</logicalDatatype>
+         <delegate>752F209A-3C71-C528-A1CC-3B8062C4EE95</delegate>
+         <associations>
+            <colAssociation fkAssociation="A185DE44-1030-91FC-191F-492CA5DD4582" referredColumn="752F209A-3C71-C528-A1CC-3B8062C4EE95"/>
+         </associations>
+      </Column>
    </columns>
    <indexes>
       <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="8848C95E-EAD8-1FCA-BD7A-E9F09F18BE87" name="thirst PK">
@@ -141,6 +154,17 @@
          <ownerDesignName>dbmodel</ownerDesignName>
          <indexColumnUsage>
             <colUsage columnID="FE5AD2A6-3D93-49FF-5AAE-18C45E3A0639"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="06038FDA-6AE1-C3BB-EE25-F4024E1C5614" name="has_filter">
+         <createdBy>churchyard</createdBy>
+         <createdTime>2012-11-19 12:41:59 UTC</createdTime>
+         <changedBy>churchyard</changedBy>
+         <changedTime>2012-11-19 12:43:25 UTC</changedTime>
+         <generatorID>F50E2E0E-9FF9-5124-0705-3E76817AB9D6</generatorID>
+         <ownerDesignName>dbmodel</ownerDesignName>
+         <indexColumnUsage>
+            <colUsage columnID="A17514A4-0AF1-C3B3-5846-ADA7709E9C37"/>
          </indexColumnUsage>
       </ind_PK_UK>
    </indexes>
