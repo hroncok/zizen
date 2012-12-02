@@ -1,0 +1,7 @@
+parameters:
+#    zsi_zizen.example.class: ZSI\ZizenBundle\Example
+
+services:
+#    zsi_zizen.example:
+#        class: %zsi_zizen.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

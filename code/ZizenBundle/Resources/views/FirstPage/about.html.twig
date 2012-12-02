@@ -1,0 +1,21 @@
+{% extends 'ZSIZizenBundle::layout.html.twig' %}
+
+{% block title %}
+  O systému
+{% endblock %}
+
+{% block content %}
+  <div id="about"> 
+    <strong>
+      Toto je testovací verze systému Žízeň, jehož analýza vznikla v průběhu zimního semestru 2012 v předmětu BI-ZSI na FIT-CVUT.
+    </strong>
+    
+    <p>
+      Cílem projektu je vytvořit sociální síť pro lidi, kteří mají chuť vyrazit někam do nějakého restauračního zařízení a nemají s kým. Projekt žízeň umožní vyhledávat lidi v jistém okruhu od okruhu žíznivce, kteří jsou na tom stejně. Dále umožní uložení svých přátel tak jako to známe třeba z Facebooku, pro přátelé bude možnost zadat extra filtry pro vyhledávání.
+    </p>
+  </div>
+  
+  <div id="linkBack">
+    <a href="{{ path('ZSIZizenBundle_mainPageIndex') }}">Zpět na hlavní stránku</a>
+  </div>
+{% endblock %}

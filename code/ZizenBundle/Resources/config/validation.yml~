@@ -1,0 +1,4 @@
+ZSI\ZizenBundle\Entity\User:
+    properties:
+        name:
+            - NotBlank: ~

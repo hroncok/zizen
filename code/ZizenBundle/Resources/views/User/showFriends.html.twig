@@ -1,0 +1,24 @@
+{% extends 'ZSIZizenBundle::firstPageLayout.html.twig' %}
+
+{% block title %}
+  Seznam přátel
+{% endblock %}
+
+{% block content %}
+
+  <h3>Seznam přátel</h3>
+  <table border="1">
+   <tr>
+	<th>Jméno</th>
+    <th>Příjmení</th>
+    <th>Odebrání přítele</th>
+  </tr>
+  {% for item in friends %}
+	  <tr>	
+		<td>{{ item.getName() }}</td>
+		<td>{{ item.getSurname() }}</td>
+		<td><a href = "{{ path('ZSIZizenBundle_deleteFriend', { 'userId' : item.getUserId() }) }}">Odebrat</a></td>
+	  </tr>
+  {% endfor %}
+  </table>
+{% endblock %}

@@ -1,0 +1,88 @@
+ZSIZizenBundle_mainPageIndex:
+    pattern:  /Zizen/index
+    defaults: { _controller: ZSIZizenBundle:FirstPage:index }
+
+ZSIZizenBundle_mainPageAbout:
+    pattern:  /Zizen/about
+    defaults: { _controller: ZSIZizenBundle:FirstPage:about }
+
+ZSIZizenBundle_logged:
+    pattern:  /Zizen/logged
+    defaults: { _controller: ZSIZizenBundle:FirstPage:logged }
+
+ZSIZizenBundle_registration:
+    pattern:  /Zizen/registration
+    defaults: { _controller: ZSIZizenBundle:FirstPage:registration }
+
+
+ZSIZizenBundle_userImport:
+    pattern:  /Zizen/person_import
+    defaults: { _controller: ZSIZizenBundle:Import:personImport }
+
+ZSIZizenBundle_personalSettings:
+    pattern:  /Zizen/personal_settings
+    defaults: { _controller: ZSIZizenBundle:User:personalSettings }
+
+ZSIZizenBundle_showRecord:
+    pattern:  /Zizen/show_record
+    defaults: { _controller: ZSIZizenBundle:User:showRecord }
+
+ZSIZizenBundle_editRecord:
+    pattern:  /Zizen/edit_record
+    defaults: { _controller: ZSIZizenBundle:User:editRecord }
+
+ZSIZizenBundle_showFavouritePubs:
+    pattern:  /Zizen/show_favourite_pubs
+    defaults: { _controller: ZSIZizenBundle:User:showFavouritePubs }
+
+ZSIZizenBundle_addFavouritePub:
+    pattern:  /Zizen/add_favourite_pub
+    defaults: { _controller: ZSIZizenBundle:User:addFavouritePub }
+
+ZSIZizenBundle_addLocation:
+    pattern:  /Zizen/add_location
+    defaults: { _controller: ZSIZizenBundle:User:addLocation }
+
+ZSIZizenBundle_showLocations:
+    pattern:  /Zizen/show_locations
+    defaults: { _controller: ZSIZizenBundle:User:showLocations }
+
+ZSIZizenBundle_selectDefaultLoc:
+    pattern:  /Zizen/set_default_location
+    defaults: { _controller: ZSIZizenBundle:User:selectDefaultLoc }
+
+ZSIZizenBundle_editFilters:
+    pattern:  /Zizen/edit_filters
+    defaults: { _controller: ZSIZizenBundle:User:editFilters }
+   
+ZSIZizenBundle_showFilters:
+    pattern:  /Zizen/show_filters
+    defaults: { _controller: ZSIZizenBundle:User:showFilters }    
+    
+ZSIZizenBundle_setThirst:
+    pattern:  /Zizen/set_thirst
+    defaults: { _controller: ZSIZizenBundle:User:setThirst }    
+
+ZSIZizenBundle_showThirst:
+    pattern:  /Zizen/show_thirst
+    defaults: { _controller: ZSIZizenBundle:User:showThirst }    
+
+ZSIZizenBundle_searchFriend:
+    pattern:  /Zizen/search_friend
+    defaults: { _controller: ZSIZizenBundle:User:searchFriend } 
+
+ZSIZizenBundle_showProfile:
+    pattern:  /Zizen/show_profile/{userId}
+    defaults: { _controller: ZSIZizenBundle:User:showProfile } 
+    
+ZSIZizenBundle_addFriend:
+    pattern:  /Zizen/add_friend/{userId}
+    defaults: { _controller: ZSIZizenBundle:User:addFriend } 
+    
+ZSIZizenBundle_showFriends:
+    pattern:  /Zizen/show_friends
+    defaults: { _controller: ZSIZizenBundle:User:showFriends } 
+
+ZSIZizenBundle_deleteFriend:
+    pattern:  /Zizen/delete_friend/{userId}
+    defaults: { _controller: ZSIZizenBundle:User:deleteFriend } 

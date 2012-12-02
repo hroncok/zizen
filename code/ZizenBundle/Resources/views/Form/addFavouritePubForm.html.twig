@@ -1,0 +1,13 @@
+{% extends 'ZSIZizenBundle::firstPageLayout.html.twig' %}
+
+{% block title %}
+  Přidání hospody
+{% endblock %}
+
+{% block content %}
+<h3>Přidání oblíbené hospody</h3>
+<form action="{{ path('ZSIZizenBundle_addFavouritePub')}}" method="post" {{ form_enctype(form) }}>
+    {{ form_widget(form) }}
+    <input type="submit" value="Přidat hospodu" />
+</form>
+{% endblock %}

@@ -1,0 +1,25 @@
+{% extends 'ZSIZizenBundle::firstPageLayout.html.twig' %}
+
+{% block title %}
+  Zobrazení hospod
+{% endblock %}
+
+{% block content %}
+  <h3>Zobrazení oblíbených hospod</h3>
+  
+  <li id="addPub"><a href="{{ path('ZSIZizenBundle_addFavouritePub') }}">Přidat oblíbenou hospodu</a></li> 
+  <br />
+  
+  <table border="1">
+  <tr>
+    <th>jméno hospody</th>
+	<th>lokace hospody</th>
+  </tr>
+	{% for item in pubs %}
+	<tr>	
+		<td>{{ item.getPubName() }}</td>
+		<td>{{ item.getPubLocation() }}</td>
+	</tr>
+	{% endfor %}
+  </table>  
+{% endblock %}

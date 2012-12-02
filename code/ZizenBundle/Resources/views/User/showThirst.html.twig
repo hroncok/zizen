@@ -1,0 +1,29 @@
+{% extends 'ZSIZizenBundle::firstPageLayout.html.twig' %}
+
+{% block title %}
+  Zobrazení žízně
+{% endblock %}
+
+{% block content %}
+  <h3>Zobrazení žízně</h3>
+  
+  <li><a href="{{ path('ZSIZizenBundle_setThirst') }}">Nastavit žízeň</a></li> 
+  
+  <br />
+
+  <table border="1">
+  <tr>
+	<th>název hospody</th>
+	<th>název lokace</th>
+	<th>status</th>
+	<th>poznámka</th>
+  </tr>
+  <tr>
+	<td>{% if thirst %}{% if thirst.getPub() %} {{ thirst.getPub().getPubName() }} {% endif %}{% endif %}</td>
+	<td>{% if thirst %}{% if thirst.getLocation() %} {{ thirst.getLocation().getLocationName() }} {% endif %}{% endif %}</td>
+	<td>{% if thirst %}{% if isSet %}{{ status }}{% endif %}{% endif %}</td>
+	<td>{% if thirst %}{% if thirst.getNote() %}{{ thirst.getNote() }}{% endif %}{% endif %}</td>
+  </tr>
+  </table>
+  
+{% endblock %}
