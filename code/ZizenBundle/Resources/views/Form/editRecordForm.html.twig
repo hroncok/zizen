@@ -1,0 +1,15 @@
+{% extends 'ZSIZizenBundle::firstPageLayout.html.twig' %}
+
+{% block title %}
+  Úprava záznamu
+{% endblock %}
+
+{% block content %}
+<h3>Úprava záznamu o vlastní osobě</h3>
+<div id='content'>
+<form action="{{ path('ZSIZizenBundle_editRecord')}}" method="post" {{ form_enctype(form) }}>
+    {{ form_widget(form) }}
+    <input type="submit" value="Změnit data" />
+</form>
+</div>
+{% endblock %}

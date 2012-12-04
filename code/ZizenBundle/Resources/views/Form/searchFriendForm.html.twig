@@ -1,0 +1,15 @@
+{% extends 'ZSIZizenBundle::firstPageLayout.html.twig' %}
+
+{% block title %}
+  Hledát přítele
+{% endblock %}
+
+{% block content %}
+<div id='content'>
+<h3>Hledat přítele podle jména a příjmení</h3>
+<form action="{{ path('ZSIZizenBundle_searchFriend')}}" method="post" {{ form_enctype(form) }}>
+    {{ form_widget(form) }}
+    <input type="submit" value="Hledat" />
+</form>
+</content>
+{% endblock %}

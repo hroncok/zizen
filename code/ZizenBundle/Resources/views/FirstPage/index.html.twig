@@ -1,0 +1,17 @@
+{% extends 'ZSIZizenBundle::layout.html.twig' %}
+
+{% block title %}
+  Žízeň
+{% endblock %}
+
+{% block content %}
+<div id='menu'>
+  <ul>
+    <li><a href = "{{ path('ZSIZizenBundle_mainPageAbout') }}">O aplikaci</a></li>
+    <li><a href = "{{ path('ZSIZizenBundle_registration') }}">Registrace</a></li>
+    <li><a href = "{{ path('ZSIZizenBundle_logged') }}">Přihlášení</a></li>
+  <ul>
+  </div>
+  <div id ='body'>
+  </div>
+{% endblock %}

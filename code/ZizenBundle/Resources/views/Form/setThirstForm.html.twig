@@ -1,0 +1,15 @@
+{% extends 'ZSIZizenBundle::firstPageLayout.html.twig' %}
+
+{% block title %}
+  Nastavení žízně
+{% endblock %}
+
+{% block content %}
+<div id='content'>
+<h3>Nastavení žízně</h3>
+<form action="{{ path('ZSIZizenBundle_setThirst')}}" method="post" {{ form_enctype(form) }}>
+    {{ form_widget(form) }}
+    <input type="submit" value="Nastavit žízeň" />
+</form>
+</div>
+{% endblock %}

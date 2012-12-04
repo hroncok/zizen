@@ -1,0 +1,13 @@
+{% extends 'ZSIZizenBundle::layout.html.twig' %}
+
+{% block title %}
+  Vytvoření účtu
+{% endblock %}
+
+{% block content %}
+<h2>Vytvoření účtu</h2>
+<form action="{{ path('ZSIZizenBundle_registration')}}" method="post" {{ form_enctype(form) }}>
+    {{ form_widget(form) }}
+    <input type="submit" value="Vytvořit účet" />
+</form>
+{% endblock %}

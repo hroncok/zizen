@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+ 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<link href="{{ asset('bundles/ZizenBundle/css/style.css') }}" type="text/css" rel="stylesheet" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+ 
+    <title>{% block title %}{% endblock title %}</title>
+ 
+</head>
+ 
+<body>
+  <h1>Žízeň</h1>
+  <ul>
+  {% if is_granted('ROLE_USER') %}
+	<div><strong>Vítej uživateli!</strong></div>
+    
+    <li><a href ="{{ path('ZSIZizenBundle_personalSettings') }}">Osobní nastavení</a></li>
+  {% endif %}
+  
+  {% if app.user.username is defined %}
+    <li id="logout"><a href="{{ path('logout') }}">Odhlášení</a></li> 
+  {% endif %}
+  </ul>
+  {% block extendedMenu %}{% endblock %}
+  
+  {% block content %}{% endblock %}
+  
+</body>
+</html>

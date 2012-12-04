@@ -1,0 +1,22 @@
+{% extends 'ZSIZizenBundle::firstPageLayout.html.twig' %}
+
+{% block title %}
+  Osobní nastavení
+{% endblock %}
+{% block content%}
+
+{% endblock %}
+
+{% block extendedMenu %}
+    <h3>Osobní nastavení</h3>
+    <ul>
+      <li><a href = "{{ path('ZSIZizenBundle_showRecord') }}">Zobrazení záznamu</a></li>
+      <li><a href = "{{ path('ZSIZizenBundle_showFavouritePubs') }}">Zobrazit oblíbené hospody</a></li> 
+      <li><a href = "{{ path('ZSIZizenBundle_showLocations') }}">Zobrazit uložené lokace</a></li>
+      <li><a href = "{{ path('ZSIZizenBundle_showFilters') }}">Zobrazit filtry</a></li>
+      <li><a href = "{{ path('ZSIZizenBundle_showThirst') }}">Zobrazit žízeň</a></li>
+      <li><a href = "{{ path('ZSIZizenBundle_showFriends') }}">Zobrazit přátele</a></li>
+      <li><a href = "{{ path('ZSIZizenBundle_searchFriend') }}">Hledat přítele</a></li>
+    <ul>
+
+{% endblock %}
