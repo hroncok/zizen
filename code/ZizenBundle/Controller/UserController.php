@@ -22,12 +22,16 @@ use ZSI\ZizenBundle\Entity\Thirst;
 /**
  * UserController class manages all functions, that the logged user can use!
  * It it the most important class for this application.
+ * All return values of all methods implemented in this class are .html pages.
+ * So in the controllers all logic is done and return values render files for
+ * presentative layer.
  */
 class UserController extends Controller
 {
     
     /**
      * This function provides a menu for the logged user!
+     * So it just really provides all the functions logged user have.
      */
     public function personalSettingsAction() 
     {
@@ -36,6 +40,7 @@ class UserController extends Controller
     
     /**
      * This function shows personal info of the logged user!
+     * His info includes name, surname, username, mail, sex, and other...
      */
     public function showRecordAction()
     {
@@ -49,6 +54,7 @@ class UserController extends Controller
 	
     /**
      * This function provides the ability to edit personal info!
+     * So the user is really able to edit his name, surname, and so on...
      */	
 	public function editRecordAction()
 	{
@@ -79,7 +85,7 @@ class UserController extends Controller
 	}
 
     /**
-     * This function provides the ability to add a new favourite pub!
+     * This function provides the ability to add a new favourite pub for a current user!
      */	
 	public function addFavouritePubAction() 
 	{
@@ -122,7 +128,7 @@ class UserController extends Controller
 	}
 
     /**
-     * This function provides the ability to add a new location!
+     * This function provides the ability to add a new location of the current user!
      */	
 	public function addLocationAction()
 	{
@@ -191,7 +197,7 @@ class UserController extends Controller
 	}
 
     /**
-     * This function provides the ability to select the default location!
+     * This function provides the ability to select the default location for the current user!
      */	
 	public function selectDefaultLocAction()
 	{
@@ -216,7 +222,7 @@ class UserController extends Controller
 	}
 
     /**
-     * This function provides the ability to edit user's filters!
+     * This function provides the ability to edit user's filters, which are important for searching thirsts!
      */	
 	public function editFiltersAction()
 	{
@@ -385,6 +391,7 @@ class UserController extends Controller
 
     /**
      * This function shows user's set thirst!
+     * So it shows the position, pub and the current status of the thirst.
      */	
 	public function showThirstAction()
 	{
@@ -411,6 +418,7 @@ class UserController extends Controller
 	
     /**
      * This function provides the ability to search friends!
+     * Now searching works just for searching names, surnames or both.
      */
 	public function searchFriendAction()
 	{
@@ -449,6 +457,7 @@ class UserController extends Controller
 
     /**
      * This function provides the ability to see other users personal info!
+     * @param userId The id of the user, whose personal info the logged user wants to look at.
      */	
 	public function showProfileAction($userId)
 	{
@@ -459,6 +468,7 @@ class UserController extends Controller
 
     /**
      * This function provides the ability to add a new friend!
+     * @param userId The id of the user, who the logged user wants to be friends with.
      */	
 	public function addFriendAction($userId)
 	{
@@ -483,7 +493,7 @@ class UserController extends Controller
 	}
 	
     /**
-     * This function shows a list of user's friends!
+     * This function shows a list of just logged user's friends!
      */	
 	public function showFriendsAction()
 	{
@@ -495,6 +505,7 @@ class UserController extends Controller
 
     /**
      * This function provides the ability to delete a friend out of a list of user's friends!
+     * @param userId The id of the user, who the logged user wants to delete from my list of friends.
      */	
 	public function deleteFriendAction($userId)
 	{

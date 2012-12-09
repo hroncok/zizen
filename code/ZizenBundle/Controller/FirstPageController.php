@@ -12,6 +12,9 @@ use ZSI\ZizenBundle\Entity\User;
 /**
  * This class provides the basic interface of the application. It is what 
  * the non-logged user can see!
+ * All return values of all methods implemented in this class are .html pages.
+ * So in the controllers all logic is done and return values render files for
+ * presentative layer.
  */
 class FirstPageController extends Controller
 {
