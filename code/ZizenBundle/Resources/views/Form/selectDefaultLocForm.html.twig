@@ -1,0 +1,15 @@
+{% extends 'ZSIZizenBundle::firstPageLayout.html.twig' %}
+
+{% block title %}
+  Výběr defaultní lokace
+{% endblock %}
+
+{% block content %}
+<div id='content'>
+<h3>Nastaveni defaultni lokace</h3>
+<form action="{{ path('ZSIZizenBundle_selectDefaultLoc')}}" method="post" {{ form_enctype(form) }}>
+    {{ form_widget(form) }}
+    <input type="submit" value="Vybrat lokaci" />
+</form>
+</div>
+{% endblock %}

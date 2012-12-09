@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+ 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<link href="{{ asset('bundles/ZizenBundle/css/style.css') }}" type="text/css" rel="stylesheet" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+ 
+    <title>{% block title %}{% endblock title %}</title>
+ 
+</head>
+ 
+<body>
+	<div id='header'>
+		<div id="nadpis">
+		<h1>Žízeň</h1>
+		</div>
+		<div id="logo">
+		</div>
+	</div>
+	<div id='prechod'>
+	</div>
+	{% if is_granted('ROLE_USER') %}
+	<h2>Vítej uživateli!</h2>
+	
+    <div id='menu'>
+	<ul>
+		<li><a href ="{{ path('ZSIZizenBundle_personalSettings') }}">Osobní nastavení</a></li>
+		{% endif %}
+  
+		{% if app.user.username is defined %}
+		<li id="logout"><a href="{{ path('logout') }}">Odhlášení</a></li> 
+		{% endif %}
+	</ul>
+	{% block extendedMenu %}{% endblock %}
+  	<div id='menu'>
+  {% block content %}{% endblock %}
+  
+</body>
+</html>

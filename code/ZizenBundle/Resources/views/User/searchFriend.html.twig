@@ -1,0 +1,27 @@
+{% extends 'ZSIZizenBundle::firstPageLayout.html.twig' %}
+
+{% block title %}
+  Výsledek hledání přátel
+{% endblock %}
+
+{% block content %}
+	<div id='content'>
+  <h3>Výsledek hledání přátel</h3>
+  <table border="1">
+   <tr>
+	<th>Jméno</th>
+    <th>Příjmení</th>
+    <th>Zobrazit profil</th>
+    <th>Přidat do přátel</th>
+  </tr>
+  {% for item in friends %}
+	  <tr>	
+		<td>{{ item.getName() }}</td>
+		<td>{{ item.getSurname() }}</td>
+		<td><a href = "{{ path('ZSIZizenBundle_showProfile', { 'userId' : item.getUserId() }) }}">Zobrazit profil</a></td>
+		<td>{% if item.getUserId() != id %}<a href = "{{ path('ZSIZizenBundle_addFriend', { 'userId' : item.getUserId() }) }}">Přidat přítele</a>{% endif %}</td>
+	  </tr>
+  {% endfor %}
+  </table>
+  </div>
+{% endblock %}

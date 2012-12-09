@@ -1,0 +1,34 @@
+{% extends 'ZSIZizenBundle::firstPageLayout.html.twig' %}
+
+{% block title %}
+  Zobrazit filtry
+{% endblock %}
+
+{% block content %}
+  <h3>Zobrazit filtry</h3>
+
+  <li><a href = "{{ path('ZSIZizenBundle_editFilters') }}">Nastavit filtry</a></li> 
+  
+  <br />
+  <div id='content'>
+  <table border="1">
+	  <tr>
+		<th>Filtr pro přátele</th>
+		<td>{% if isSet %}{{ fR }}{% endif %}</td>
+	  </tr>
+		<th>Filtr pro ostatní</th>
+		<td>{% if isSet %}{{ oR }}{% endif %}</td>
+	  <tr>
+		<th>Maximální věk</th>
+		<td>{% if isSet %}{{ aMax }}{% endif %}</td>
+	  </tr>
+		<th>Minimální věk</th>
+		<td>{% if isSet %}{{ aMin }}{% endif %}</td>
+	  <tr>
+		<th>Omezení pohlaví</th>
+		<td>{% if isSet %}{{ sex }}{% endif %}</td>
+	  </tr>
+  </table>  
+  </div>
+{% endblock %}
+
